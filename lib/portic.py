@@ -11,8 +11,8 @@ Sommaire des méthodes exposées :
 * get_travels
 * get_departures_details
 * get_departures_aggregated
-* get_directions_details
-* get_directions_aggregated
+* get_destinations_details
+* get_destinations_aggregated
 * get_flows
 * get_ports
     """
@@ -105,7 +105,7 @@ Paramètres de requête spécifiques :
     def get_departures_aggregated(self, params=None):
         """
 Synopsis:
-Retourne une aggrégation des *voyages* au départ des points situés dans le voisinage (voir paramètre radius) du point requêté.
+Retourne une agrégation des *voyages* au départ des points situés dans le voisinage (voir paramètre radius) du point requêté.
 ---
 Paramètres de requête généraux (la valeur entre *étoiles* est la valeur par défaut si le paramètre de requête n'est pas défini):
 
@@ -151,7 +151,7 @@ Paramètres de requête spécifiques :
     def get_destinations_aggregated(self, params=None):
         """
 Synopsis:
-Retourne une aggrégation des *voyages* à l'arrivée des points situés dans le voisinage (voir paramètre radius) du point requêté.
+Retourne une agrégation des *voyages* à l'arrivée des points situés dans le voisinage (voir paramètre radius) du point requêté.
 ---
 Paramètres de requête généraux (la valeur entre *étoiles* est la valeur par défaut si le paramètre de requête n'est pas défini):
 

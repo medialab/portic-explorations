@@ -2,7 +2,7 @@ import json
 import requests
 from urllib.parse import urlencode
 
-# Low-level class for handling api calls and responses
+# Abstract class for handling api calls and responses
 class Client():  
     def logger (self, *args):
         print(args)
@@ -24,6 +24,8 @@ class Client():
             '\r\n'.join('{}: {}'.format(k, v) for k, v in prepared.headers.items()),
             prepared.body,
         ))
+        if (data is not None):
+            self.logger('data', json.dumps(data, indent=2))
         
         if method == 'get':
             response = requests.get(final_url, params=final_params)
@@ -35,6 +37,5 @@ class Client():
         if response.status_code == 200:
             return json.loads(response.content.decode('utf-8'))
         else:
-            logger('an error occured for request', final_url)
-            logger(response.status_code, response.content)
-            raise
+            self.logger('an error occured for request:', method, final_url)
+            self.logger(response.status_code, response.content)

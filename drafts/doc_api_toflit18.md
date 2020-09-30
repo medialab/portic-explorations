@@ -241,12 +241,12 @@ Export en csv ou json des données d'une classification.
 
 #### `POST http://toflit18.medialab.sciences-po.fr/api/classification/:id/patch/review`
 
-Pas pertinent pour l'exploration ?
+Pas pertinent pour l'exploration.
 
 
 #### `POST http://toflit18.medialab.sciences-po.fr/api/classification/:id/patch/commit`
 
-Pas pertinent pour l'exploration ?
+Pas pertinent pour l'exploration.
 
 ## API des vizs
 
