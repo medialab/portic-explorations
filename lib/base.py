@@ -2,6 +2,8 @@ import json
 import requests
 from urllib.parse import urlencode
 
+debug = False
+
 # Abstract class for handling api calls and responses
 class Client():  
     def logger (self, *args):
@@ -18,13 +20,14 @@ class Client():
                     final_params[key] = value
         req = requests.Request(method.upper(), final_url, params=final_params)
         prepared = req.prepare()
-        print('{}\n{}\r\n{}\r\n\r\n{}'.format(
-            '-----------FINAL QUERY-----------',
-            prepared.method + ' ' + prepared.url,
-            '\r\n'.join('{}: {}'.format(k, v) for k, v in prepared.headers.items()),
-            prepared.body,
-        ))
-        if (data is not None):
+        if debug is True:
+            print('{}\n{}\r\n{}\r\n\r\n{}'.format(
+                '-----------FINAL QUERY-----------',
+                prepared.method + ' ' + prepared.url,
+                '\r\n'.join('{}: {}'.format(k, v) for k, v in prepared.headers.items()),
+                prepared.body,
+            ))
+        if (data is not None and debug is True):
             self.logger('data', json.dumps(data, indent=2))
         
         if method == 'get':
@@ -35,7 +38,8 @@ class Client():
             response = requests.post(final_url, params=final_params, data=data)
         
         if response.status_code == 200:
+            # self.logger('response', response.content.decode('utf-8'))
             return json.loads(response.content.decode('utf-8'))
-        else:
+        elif debug is True:
             self.logger('an error occured for request:', method, final_url)
             self.logger(response.status_code, response.content)
