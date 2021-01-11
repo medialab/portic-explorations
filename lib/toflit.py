@@ -162,3 +162,26 @@ Paramètres :
         response = self.api('/viz/terms/' + classification, method='post', params=None, data=params)
         return self._format_response(response)
     
+    def get_flows(self, params=None):
+        """
+Synopsis : récupère les flux au niveau de granularité maximal en fonction d'une série de paramètres
+---
+Paramètres :
+
+* limit : <int> # nombre d'entrées à renvoyer
+* skip : <int> # à quel point de la liste commencer à renvoyer des éléments
+* columns : <array> | liste des colonnes à renvoyer concernant les flux
+* kind : *total* | import | export # quels flux utiliser
+* direction : <string> "$all$" | [nom de direction] # nom de la direction à filtrer
+* sourceType : <string> # id du type de source à utiliser
+* color: <string> # pas pertinent / relatif à la visualisation
+* dateMax : <int>
+* dateMin : <int>
+* partnerClassification : <string> # le nom de la classification de partenaire à récupérer
+* partner : <Array<object>> # les partenaires commerciaux à prendre en compte (e.g. {name: 'Alsace', id: 'Alsace~partner_orthographic'})
+* product : <Array<object>> # liste des produits à filtrer
+* productClassification : <string> # Classification de produit à utiliser pour le filtre
+        """
+        response = self.api('/flows/', method='post', params=None, data=params)
+        return self._format_response(response)
+    
