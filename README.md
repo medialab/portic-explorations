@@ -20,3 +20,6 @@ Puis aller à : http://localhost:8888/lab
 
 - [ ] explorer les données de Portic et Toflit18 relative aux ports de la région du Poitou
 - [ ] envisager des exemples de questions de recherche et faire des hypothèses sur ce que l'on pourrait explorer
+
+
+à voir plus en détail : https://github.com/medialab/toflit18_data/blob/master/base/bdd_centrale.csv.zip (données avec toutes les jointures)
