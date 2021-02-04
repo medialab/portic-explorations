@@ -38,7 +38,8 @@ class Client():
             response = requests.post(final_url, params=final_params, data=data)
         
         if response.status_code == 200:
-            # self.logger('response', response.content.decode('utf-8'))
+            if debug is True:
+                self.logger('response', response.content.decode('utf-8'))
             return json.loads(response.content.decode('utf-8'))
         elif debug is True:
             self.logger('an error occured for request:', method, final_url)
