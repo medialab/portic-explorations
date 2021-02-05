@@ -14,9 +14,9 @@ pointcalls = client.portic.get_pointcalls({
 })
 # filter to the admiralties we are interested in
 accepted_admiralties = ['La Rochelle', 'Marennes', 'Sables d\'Olonne']
-filtered_pointcalls = list(filter(lambda pointcall : pointcall['pointcall_admiralty'] in accepted_admiralties, pointcalls))
+filtered_pointcalls = [pointcall for pointcall in list(pointcalls) if pointcall['pointcall_admiralty'] in accepted_admiralties]
 # write all data as csv
-keys = list(list(filtered_pointcalls)[0].keys())
+keys = list(filtered_pointcalls[0].keys())
 with open('csv_dumps/navigo_all_pointcalls_1789_admiralities_datasprint_1.csv', 'w',) as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(keys)
