@@ -55,7 +55,6 @@ Paramètres : aucun
     def get_classification_groups(self, classification, params=None):
         """
 Synopsis : récupère l'ensemble des catégories associées à une classification en particulier (sans le détail des valeurs)
-
 Paramètre classification : le nom de la classification préfixé par son type (ex. "product_simplification", ou "partner_source")
 ---
 Paramètres : aucun ?
@@ -67,14 +66,13 @@ Paramètres : aucun ?
     def get_classification_search(self, classification, params=None):
         """
 Synopsis : récupère le détail des groupements associés à une classification en particulier.
-
 Paramètre classification : le nom de la classification préfixé par son type (ex. "product_simplification", ou "partner_source")
 ---
 Paramètres : aucun ?
-
         """
         response = self.api('/classification/' + classification + '/search/', params=params)
         response = self._format_response(response)
+        print ("Nombre de classifications trouvées : ", len(response))
         return response
 
     
@@ -85,7 +83,6 @@ Synopsis : récupère le réseau des lieux (directions et partenaires) et le mon
 Paramètre classification : l'id de la classification de partenaire à utiliser
 ---
 Paramètres :
-
 * dateMax : <int> # année de début
 * dateMin : <int> # année de fin
 * kind : total | import | export # quels flux utiliser
@@ -101,7 +98,6 @@ Paramètres :
 Synopsis : récupère des séries temporelles à propos des flux de marchandises
 ---
 Paramètres :
-
 * direction : <string> "$all$" | [nom de direction] # nom de la direction à filtrer
 * sourceType : <string> # id du type de source à utiliser
 * color: <string> # pas pertinent / relatif à la visualisation
@@ -123,7 +119,6 @@ Synopsis : récupère les flux par année par direction ou par type de source
 Paramètre type : le type de flux 'direction' ou 'sourceType'
 ---
 Paramètres :
-
 * direction : <string> "$all$" | [nom de direction] # nom de la direction à filtrer
 * sourceType : <string> # id du type de source à utiliser
 * color: <string> # pas pertinent / relatif à la visualisation
@@ -145,8 +140,7 @@ Synopsis : récupère des séries temporelles à propos des flux de marchandises
 Paramètre classification : l'id de la classification de produit à utiliser
 ---
 Paramètres :
-
-* direction : <string> "$all$" | [nom de direction] # nom de la direction à filtrer
+* direction : <string> "$all$" | [nom de direction] # nom de la direction à filtrer
 * sourceType : <string> # id du type de source à utiliser
 * color: <string> # pas pertinent / relatif à la visualisation
 * dateMax : <int>
@@ -167,7 +161,6 @@ Paramètres :
 Synopsis : récupère les flux au niveau de granularité maximal en fonction d'une série de paramètres
 ---
 Paramètres :
-
 * limit : <int> # nombre d'entrées à renvoyer
 * skip : <int> # à quel point de la liste commencer à renvoyer des éléments
 * columns : <array> | liste des colonnes à renvoyer concernant les flux
@@ -182,6 +175,31 @@ Paramètres :
 * product : <Array<object>> # liste des produits à filtrer
 * productClassification : <string> # Classification de produit à utiliser pour le filtre
         """
-        response = self.api('/flows/', method='post', params=None, data=params)
-        return self._format_response(response)
+
+        #initialisations
+        results = []
+        current_params = params.copy()
+        current_index = params['skip']
+        limit = params['limit']
+        error = None
+        length = 1 # longueur d'une tanche (initialisé à 1 pour 1er passage dans while)
+        total_length=0 # mesure le nombre total de flows trouvés
+
+        # tant que j'ai des réponses (ou pas d'erreurs)
+        while length: 
+            # récupérer des résultats pour une tranche donnée
+            print("index courant :", current_index)
+            response = self.api('/flows/', method='post', params=None, data={**current_params, "skip":current_index}) # retourne un objet json avec attribut result 
+            temp_results = self._format_response(response)
+            length = len(temp_results)
+            print("length of current result :", length)
+            if length<limit: # si la longueur de la tranche est inférieure à la limite, on est arrivés à la dernière page d'affichage => on veut sortir du while
+                length=0
+            
+            results += temp_results # stock global de résultats
+            current_index += limit
+            print("index incrémenté :", current_index)
+
+        print ("Nombre de flows trouvés : ", len(results))
+        return results 
     

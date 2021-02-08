@@ -40,7 +40,7 @@ class Client():
         if response.status_code == 200:
             if debug is True:
                 self.logger('response', response.content.decode('utf-8'))
-            return json.loads(response.content.decode('utf-8'))
+            return json.loads(response.content.decode('utf-8')) # result returned as a json object
         elif debug is True:
             self.logger('an error occured for request:', method, final_url)
             self.logger(response.status_code, response.content)
