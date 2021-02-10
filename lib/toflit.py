@@ -188,7 +188,7 @@ Paramètres :
         # tant que j'ai des réponses (ou pas d'erreurs)
         while length: 
             # récupérer des résultats pour une tranche donnée
-            print("index courant :", current_index)
+            # print("index courant :", current_index)
             response = self.api('/flows/', method='post', params=None, data={**current_params, "skip":current_index}) # retourne un objet json avec attribut result 
             temp_results = self._format_response(response)
             length = len(temp_results)
@@ -198,7 +198,7 @@ Paramètres :
             
             results += temp_results # stock global de résultats
             current_index += limit
-            print("index incrémenté :", current_index)
+            # print("index incrémenté :", current_index)
 
         print ("Nombre de flows trouvés : ", len(results))
         return results 
