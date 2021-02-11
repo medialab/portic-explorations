@@ -1,0 +1,4415 @@
+[
+    {
+        "name": "cuirs de b\u0153uf tann\u00e9s",
+        "id": "cuirs_de_b\u0153uf_tann\u00e9s~product_orthographic",
+        "items": [
+            {
+                "name": "Cuir de beuf tan\u00e9"
+            },
+            {
+                "name": "Cuir ; de beuf ; tan\u00e9"
+            },
+            {
+                "name": "Cuir de beuf tan\u00e9s"
+            },
+            {
+                "name": "Cuir de beuf tann\u00e9"
+            },
+            {
+                "name": "Cuir; de beuf tann\u00e9s"
+            }
+        ],
+        "nbItems": 65
+    },
+    {
+        "name": "morue s\u00e8che",
+        "note": "x",
+        "id": "morue_s\u00e8che~product_orthographic",
+        "items": [
+            {
+                "name": "Molu\u00eb ; seiche"
+            },
+            {
+                "name": "More seche"
+            },
+            {
+                "name": "Mor\u00fce s\u00e8che"
+            },
+            {
+                "name": "Mor\u00fce s\u00e9che"
+            },
+            {
+                "name": "Mor\u00fce Seche"
+            }
+        ],
+        "nbItems": 56
+    },
+    {
+        "name": "peaux de mouton appr\u00eat\u00e9es",
+        "id": "peaux_de_mouton_appr\u00eat\u00e9es~product_orthographic",
+        "items": [
+            {
+                "name": "Peau ; de mouton ; apress\u00e9s"
+            },
+            {
+                "name": "Peau ; de mouton ; apr\u00eat\u00e9e"
+            },
+            {
+                "name": "Peau de Mouton a pret\u00e9es"
+            },
+            {
+                "name": "Peau de mouton aprett\u00e9es"
+            },
+            {
+                "name": "Peaux de mouton appret\u00e9"
+            }
+        ],
+        "nbItems": 52
+    },
+    {
+        "name": "toile \u00e0 voile",
+        "id": "toile_\u00e0_voile~product_orthographic",
+        "items": [
+            {
+                "name": "Toile; \u00e0 voile"
+            },
+            {
+                "name": "Toile; A voile"
+            },
+            {
+                "name": "Toile avoile"
+            },
+            {
+                "name": "Toile \u00e0 Voile"
+            },
+            {
+                "name": "Toile \u00e0 voile"
+            }
+        ],
+        "nbItems": 52
+    },
+    {
+        "name": "plumes d'autruche appr\u00eat\u00e9es",
+        "id": "plumes_d'autruche_appr\u00eat\u00e9es~product_orthographic",
+        "items": [
+            {
+                "name": "Plume d'autruche appret\u00e9e"
+            },
+            {
+                "name": "Plume ; d'autruche ; appr\u00eat\u00e9e"
+            },
+            {
+                "name": "Plume ; d'autruche ; aprest\u00e9e"
+            },
+            {
+                "name": "Plume ; d'autruche ; aprest\u00e9es"
+            },
+            {
+                "name": "Plume d'autruche apr\u00eat\u00e9e"
+            }
+        ],
+        "nbItems": 49
+    },
+    {
+        "name": "cannettes de gr\u00e8s",
+        "id": "cannettes_de_gr\u00e8s~product_orthographic",
+        "items": [
+            {
+                "name": "Canetes de Gray"
+            },
+            {
+                "name": "Canette de Gray"
+            },
+            {
+                "name": "Canette de gray"
+            },
+            {
+                "name": "Canette de gr\u00e9"
+            },
+            {
+                "name": "Canette de gr\u00e8s"
+            }
+        ],
+        "nbItems": 48
+    },
+    {
+        "name": "merrains \u00e0 barriques",
+        "id": "merrains_\u00e0_barriques~product_orthographic",
+        "items": [
+            {
+                "name": "Mairain \u00e0 barique"
+            },
+            {
+                "name": "Mairain \u00e0 bariques"
+            },
+            {
+                "name": "Mairains a bariques"
+            },
+            {
+                "name": "Mairein \u00e0 bariques"
+            },
+            {
+                "name": "Mairin a Bariques"
+            }
+        ],
+        "nbItems": 48
+    },
+    {
+        "name": "po\u00eales \u00e0 frire",
+        "id": "po\u00eales_\u00e0_frire~product_orthographic",
+        "items": [
+            {
+                "name": "Poelea frire"
+            },
+            {
+                "name": "Po\u00eble a frire"
+            },
+            {
+                "name": "Po\u00eale \u00e0 frire"
+            },
+            {
+                "name": "Poele \u00e0 frire"
+            },
+            {
+                "name": "Poele a frire"
+            }
+        ],
+        "nbItems": 45
+    },
+    {
+        "name": "bois merrains \u00e0 barriques",
+        "id": "bois_merrains_\u00e0_barriques~product_orthographic",
+        "items": [
+            {
+                "name": "Bois ;;mairin;a barique"
+            },
+            {
+                "name": "Bois ; mairin a barique"
+            },
+            {
+                "name": "Bois ;;mairin;\u00e0 bariques"
+            },
+            {
+                "name": "Bois ;;mairin;a bariques"
+            },
+            {
+                "name": "Bois ; ; mairin; a Bariques"
+            }
+        ],
+        "nbItems": 43
+    },
+    {
+        "name": "dame-jeannes",
+        "id": "dame-jeannes~product_orthographic",
+        "items": [
+            {
+                "name": "Damejane"
+            },
+            {
+                "name": "Damejanes"
+            },
+            {
+                "name": "Dame janes"
+            },
+            {
+                "name": "Damejanne"
+            },
+            {
+                "name": "Dame janne"
+            }
+        ],
+        "nbItems": 43
+    },
+    {
+        "name": "fer en po\u00eales \u00e0 frire",
+        "id": "fer_en_po\u00eales_\u00e0_frire~product_orthographic",
+        "items": [
+            {
+                "name": "Fer ; en perles \u00e0 frire"
+            },
+            {
+                "name": "Fer en po\u00eble \u00e0 frire"
+            },
+            {
+                "name": "Fer en po\u00eble a frire"
+            },
+            {
+                "name": "Fer en poele \u00e0 frire"
+            },
+            {
+                "name": "Fer en poele a frire"
+            }
+        ],
+        "nbItems": 42
+    },
+    {
+        "name": "peaux de veau corroy\u00e9es",
+        "id": "peaux_de_veau_corroy\u00e9es~product_orthographic",
+        "items": [
+            {
+                "name": "Peau ; de veau ; corroi\u00e9es"
+            },
+            {
+                "name": "Peau de veau corroy\u00e9"
+            },
+            {
+                "name": "Peau de veau corroy\u00e9e"
+            },
+            {
+                "name": "Peau ; de veau corroy\u00e9e"
+            },
+            {
+                "name": "Peau ; de veau ; corroy\u00e9e"
+            }
+        ],
+        "nbItems": 42
+    },
+    {
+        "name": "toile guingans",
+        "id": "toile_guingans~product_orthographic",
+        "items": [
+            {
+                "name": "Toile ginagas"
+            },
+            {
+                "name": "Toile ginga"
+            },
+            {
+                "name": "Toile ; ginga"
+            },
+            {
+                "name": "Toile gingamp"
+            },
+            {
+                "name": "Toile gingan"
+            }
+        ],
+        "nbItems": 42
+    },
+    {
+        "name": "bois du Br\u00e9sil",
+        "id": "bois_du_Br\u00e9sil~product_orthographic",
+        "items": [
+            {
+                "name": "Bois a bresil"
+            },
+            {
+                "name": "Bois Bresil"
+            },
+            {
+                "name": "Bois bresil"
+            },
+            {
+                "name": "Bois ; br\u00e9sil"
+            },
+            {
+                "name": "Bois ; Bresil"
+            }
+        ],
+        "nbItems": 40
+    },
+    {
+        "name": "bois de Pernambouc",
+        "id": "bois_de_Pernambouc~product_orthographic",
+        "items": [
+            {
+                "name": "Bois ; de Camanbourg"
+            },
+            {
+                "name": "Bois de fenambourg"
+            },
+            {
+                "name": "Bois ; de fermambourg"
+            },
+            {
+                "name": "Bois de fermanbourg"
+            },
+            {
+                "name": "Bois ; de Fermanbourg"
+            }
+        ],
+        "nbItems": 40
+    },
+    {
+        "name": "huile d'olive",
+        "id": "huile_d'olive~product_orthographic",
+        "items": [
+            {
+                "name": "Huile d'holive"
+            },
+            {
+                "name": "Huile; D'olive"
+            },
+            {
+                "name": "Huile; d'olive"
+            },
+            {
+                "name": "Huile dolive"
+            },
+            {
+                "name": "Hu\u00efle d'olive"
+            }
+        ],
+        "nbItems": 39
+    },
+    {
+        "name": "merrains \u00e0 barriques en douelles",
+        "id": "merrains_\u00e0_barriques_en_douelles~product_orthographic",
+        "items": [
+            {
+                "name": "Mairain \u00e0 barique en douelles"
+            },
+            {
+                "name": "Mairains a bariques en douelles"
+            },
+            {
+                "name": "Mairein \u00e0 bariques en douelles"
+            },
+            {
+                "name": "Mairin a Bariques en douelles"
+            },
+            {
+                "name": "Mairin A Barrique en douelles"
+            }
+        ],
+        "nbItems": 39
+    },
+    {
+        "name": "bois de Camp\u00eache",
+        "id": "bois_de_Camp\u00eache~product_orthographic",
+        "items": [
+            {
+                "name": "Bas de campesche"
+            },
+            {
+                "name": "Bois Campech"
+            },
+            {
+                "name": "Bois Camp\u00eache"
+            },
+            {
+                "name": "Bois Campeche"
+            },
+            {
+                "name": "Bois campeche"
+            }
+        ],
+        "nbItems": 38
+    },
+    {
+        "name": "cuirs de b\u0153uf en poil",
+        "id": "cuirs_de_b\u0153uf_en_poil~product_orthographic",
+        "items": [
+            {
+                "name": "Cuir de beuf en poil"
+            },
+            {
+                "name": "Cuir ; de beuf ; en poil"
+            },
+            {
+                "name": "Cuir de beuf en poils"
+            },
+            {
+                "name": "Cuir de b\u0153uf en poil"
+            },
+            {
+                "name": "Cuir ; de b\u0153uf ; en poil"
+            }
+        ],
+        "nbItems": 38
+    },
+    {
+        "name": "harengs saurs",
+        "id": "harengs_saurs~product_orthographic",
+        "items": [
+            {
+                "name": "Harancs ; fors"
+            },
+            {
+                "name": "Harands sors"
+            },
+            {
+                "name": "Harangs ; fors"
+            },
+            {
+                "name": "Harangs forts"
+            },
+            {
+                "name": "Harangs ; lora"
+            }
+        ],
+        "nbItems": 38
+    },
+    {
+        "name": "marchandises m\u00eal\u00e9es",
+        "id": "marchandises_m\u00eal\u00e9es~product_orthographic",
+        "items": [
+            {
+                "name": "Marchandies mel\u00e9es"
+            },
+            {
+                "name": "Marchandise m\u00eal\u00e9e"
+            },
+            {
+                "name": "Marchandise mel\u00e9e"
+            },
+            {
+                "name": "Marchandise M\u00eal\u00e9er"
+            },
+            {
+                "name": "Marchandise M\u00eal\u00e9es"
+            }
+        ],
+        "nbItems": 38
+    },
+    {
+        "name": "peaux de veau appr\u00eat\u00e9es",
+        "id": "peaux_de_veau_appr\u00eat\u00e9es~product_orthographic",
+        "items": [
+            {
+                "name": "Peau ; de veau apr\u00eat\u00e9e"
+            },
+            {
+                "name": "Peau ; de veau ; apr\u00eat\u00e9e"
+            },
+            {
+                "name": "Peau de veau apret\u00e9es"
+            },
+            {
+                "name": "Peau de veau aprett\u00e9es"
+            },
+            {
+                "name": "Peau ; de veaux ; apress\u00e9es"
+            }
+        ],
+        "nbItems": 38
+    },
+    {
+        "name": "bourre \u00e0 b\u00e2tier",
+        "id": "bourre_\u00e0_b\u00e2tier~product_orthographic",
+        "items": [
+            {
+                "name": "Beurre \u00e0 bastier"
+            },
+            {
+                "name": "Bourde a batier"
+            },
+            {
+                "name": "Boure a batier"
+            },
+            {
+                "name": "Boure a b\u00e2tir"
+            },
+            {
+                "name": "Bourre \u00e0 bastier"
+            }
+        ],
+        "nbItems": 37
+    },
+    {
+        "name": "toile d'emballage",
+        "id": "toile_d'emballage~product_orthographic",
+        "items": [
+            {
+                "name": "Toiel d'emballage"
+            },
+            {
+                "name": "Toile d'amballage"
+            },
+            {
+                "name": "Toile ; d'emb ???"
+            },
+            {
+                "name": "Toile ; d'embabis"
+            },
+            {
+                "name": "Toile; d'embalage"
+            }
+        ],
+        "nbItems": 37
+    },
+    {
+        "name": "bois de Sainte-Marthe",
+        "id": "bois_de_Sainte-Marthe~product_orthographic",
+        "items": [
+            {
+                "name": "Bois de Mathe"
+            },
+            {
+                "name": "Bois ; de N marthe"
+            },
+            {
+                "name": "Bois de Sainte-Marthe"
+            },
+            {
+                "name": "Bois de Sainte Marthe"
+            },
+            {
+                "name": "Bois de sainte Marthe"
+            }
+        ],
+        "nbItems": 36
+    },
+    {
+        "name": "poterie de gr\u00e8s",
+        "id": "poterie_de_gr\u00e8s~product_orthographic",
+        "items": [
+            {
+                "name": "Petterie de gr\u00e9s"
+            },
+            {
+                "name": "Porterie de Gray"
+            },
+            {
+                "name": "Poterie de Bray"
+            },
+            {
+                "name": "Poterie de grais"
+            },
+            {
+                "name": "Poterie de Gray"
+            }
+        ],
+        "nbItems": 36
+    },
+    {
+        "name": "dents d'\u00e9l\u00e9phant",
+        "id": "dents_d'\u00e9l\u00e9phant~product_orthographic",
+        "items": [
+            {
+                "name": "Dans delefant"
+            },
+            {
+                "name": "Den d'elefans"
+            },
+            {
+                "name": "Dens d'elefant"
+            },
+            {
+                "name": "Dens ; d'elephants"
+            },
+            {
+                "name": "Dent d'elefant"
+            }
+        ],
+        "nbItems": 35
+    },
+    {
+        "name": "eau de la reine de Hongrie",
+        "id": "eau_de_la_reine_de_Hongrie~product_orthographic",
+        "items": [
+            {
+                "name": "Eau ; de la d'hongrie"
+            },
+            {
+                "name": "Eau ; de la M. d'Hongrie"
+            },
+            {
+                "name": "Eau ; de la M d'hongrie"
+            },
+            {
+                "name": "Eau de la raine d'Ongrie"
+            },
+            {
+                "name": "Eau ; de lar d'hongrie"
+            }
+        ],
+        "nbItems": 35
+    },
+    {
+        "name": "peaux de veau tann\u00e9es",
+        "id": "peaux_de_veau_tann\u00e9es~product_orthographic",
+        "items": [
+            {
+                "name": "Peau de veau tann\u00e9e"
+            },
+            {
+                "name": "Peau de veau tann\u00e9es"
+            },
+            {
+                "name": "Peau ; de veau ; tann\u00e9es"
+            },
+            {
+                "name": "Peau ; de veaux ; tann\u00e9es"
+            },
+            {
+                "name": "Peaux de vaux tann\u00e9s"
+            }
+        ],
+        "nbItems": 34
+    },
+    {
+        "name": "pelleterie appr\u00eat\u00e9e",
+        "id": "pelleterie_appr\u00eat\u00e9e~product_orthographic",
+        "items": [
+            {
+                "name": "Peleterie apret\u00e9e"
+            },
+            {
+                "name": "Peletterie ; apr\u00eat\u00e9e"
+            },
+            {
+                "name": "Pellestrie a prest\u00e9e"
+            },
+            {
+                "name": "Pelleterie ; apprest\u00e9e"
+            },
+            {
+                "name": "Pelleterie apprest\u00e9es"
+            }
+        ],
+        "nbItems": 34
+    },
+    {
+        "name": "harengs blancs",
+        "id": "harengs_blancs~product_orthographic",
+        "items": [
+            {
+                "name": "Arans Blancs"
+            },
+            {
+                "name": "Harams blanc"
+            },
+            {
+                "name": "Haran blanc"
+            },
+            {
+                "name": "Haran blancs"
+            },
+            {
+                "name": "Haran ;Blancs"
+            }
+        ],
+        "nbItems": 33
+    },
+    {
+        "name": "peaux de ch\u00e8vre appr\u00eat\u00e9es",
+        "id": "peaux_de_ch\u00e8vre_appr\u00eat\u00e9es~product_orthographic",
+        "items": [
+            {
+                "name": "Peau ; de chevre apr\u00eat\u00e9e"
+            },
+            {
+                "name": "Peau ; de chevre ; apr\u00eat\u00e9e"
+            },
+            {
+                "name": "Peaux ; de chevre ; apprest\u00e9es"
+            },
+            {
+                "name": "Peaux de ch\u00e8vre appr\u00eat\u00e9es"
+            },
+            {
+                "name": "Peaux de ch\u00e8vre appret\u00e9es"
+            }
+        ],
+        "nbItems": 33
+    },
+    {
+        "name": "toile de coton",
+        "id": "toile_de_coton~product_orthographic",
+        "items": [
+            {
+                "name": "Toie ; de coton"
+            },
+            {
+                "name": "Toile de collon"
+            },
+            {
+                "name": "Toilede coton"
+            },
+            {
+                "name": "Toile; De coton"
+            },
+            {
+                "name": "Toile; de coton"
+            }
+        ],
+        "nbItems": 33
+    },
+    {
+        "name": "cornes \u00e0 lanternes",
+        "id": "cornes_\u00e0_lanternes~product_orthographic",
+        "items": [
+            {
+                "name": "Cordnes a lanternes"
+            },
+            {
+                "name": "Corne \u00e0 Lanterne"
+            },
+            {
+                "name": "Corne \u00e0 lanterne"
+            },
+            {
+                "name": "Corne A Lanterne"
+            },
+            {
+                "name": "Corne a Lanterne"
+            }
+        ],
+        "nbItems": 32
+    },
+    {
+        "name": "t\u00e9r\u00e9benthine",
+        "id": "t\u00e9r\u00e9benthine~product_orthographic",
+        "items": [
+            {
+                "name": "Terabantine"
+            },
+            {
+                "name": "Terbenchine"
+            },
+            {
+                "name": "Terbenthine"
+            },
+            {
+                "name": "Terebanthine"
+            },
+            {
+                "name": "T\u00e9r\u00e9bantine"
+            }
+        ],
+        "nbItems": 31
+    },
+    {
+        "name": "toile batiste",
+        "id": "toile_batiste~product_orthographic",
+        "items": [
+            {
+                "name": "Toile Baliste"
+            },
+            {
+                "name": "Toile Baptiste"
+            },
+            {
+                "name": "Toile baptiste"
+            },
+            {
+                "name": "Toile ; Baptiste"
+            },
+            {
+                "name": "Toile ; baptiste"
+            }
+        ],
+        "nbItems": 31
+    },
+    {
+        "name": "bois \u00e0 br\u00fbler",
+        "id": "bois_\u00e0_br\u00fbler~product_orthographic",
+        "items": [
+            {
+                "name": "Bois \u00e0 brul\u00e9"
+            },
+            {
+                "name": "Bois A brul\u00e9"
+            },
+            {
+                "name": "Bois A Brule"
+            },
+            {
+                "name": "Bois; \u00e0 bruler"
+            },
+            {
+                "name": "Bois \u00e0 br\u00fbler"
+            }
+        ],
+        "nbItems": 30
+    },
+    {
+        "name": "cassia lignea",
+        "id": "cassia_lignea~product_orthographic",
+        "items": [
+            {
+                "name": "Caffialinea"
+            },
+            {
+                "name": "Calicanas"
+            },
+            {
+                "name": "Calineas"
+            },
+            {
+                "name": "Canalinea"
+            },
+            {
+                "name": "Casia lignea"
+            }
+        ],
+        "nbItems": 30
+    },
+    {
+        "name": "cuirs de Russie",
+        "id": "cuirs_de_Russie~product_orthographic",
+        "items": [
+            {
+                "name": "Cuir de roussi"
+            },
+            {
+                "name": "Cuir de Roussie"
+            },
+            {
+                "name": "Cuir de Roussy"
+            },
+            {
+                "name": "Cuir de roussy"
+            },
+            {
+                "name": "Cuir ; de Roussy"
+            }
+        ],
+        "nbItems": 30
+    },
+    {
+        "name": "meules \u00e0 aiguiser",
+        "id": "meules_\u00e0_aiguiser~product_orthographic",
+        "items": [
+            {
+                "name": "Meule \u00e0 Aiguiser"
+            },
+            {
+                "name": "Meule A Aiguiser"
+            },
+            {
+                "name": "Meule a Eguis\u00e9"
+            },
+            {
+                "name": "Meule \u00e0 eguiser"
+            },
+            {
+                "name": "Meule ; \u00e0 \u00e9guiser"
+            }
+        ],
+        "nbItems": 30
+    },
+    {
+        "name": "baume de Copahu",
+        "id": "baume_de_Copahu~product_orthographic",
+        "items": [
+            {
+                "name": "Baume ; Copahu"
+            },
+            {
+                "name": "Baume ; copahu"
+            },
+            {
+                "name": "Baume de capabu"
+            },
+            {
+                "name": "Baume de capah\u00fb"
+            },
+            {
+                "name": "Baume de Capahu"
+            }
+        ],
+        "nbItems": 29
+    },
+    {
+        "name": "cuirs de vache tann\u00e9s",
+        "id": "cuirs_de_vache_tann\u00e9s~product_orthographic",
+        "items": [
+            {
+                "name": "Cuids de vache tann\u00e9s"
+            },
+            {
+                "name": "Cuir de vaches tann\u00e9"
+            },
+            {
+                "name": "Cuir de v\u00e2che tan\u00e9"
+            },
+            {
+                "name": "Cuir de vache tann\u00e9"
+            },
+            {
+                "name": "Cuir ; de vache ; tann\u00e9"
+            }
+        ],
+        "nbItems": 29
+    },
+    {
+        "name": "gomme adragant",
+        "id": "gomme_adragant~product_orthographic",
+        "items": [
+            {
+                "name": "Gome adragan"
+            },
+            {
+                "name": "Gome ; adragan"
+            },
+            {
+                "name": "Gomme adagan"
+            },
+            {
+                "name": "Gomme: \u00e0 dragan"
+            },
+            {
+                "name": "Gomme Adragan"
+            }
+        ],
+        "nbItems": 29
+    },
+    {
+        "name": "huile de t\u00e9r\u00e9benthine",
+        "id": "huile_de_t\u00e9r\u00e9benthine~product_orthographic",
+        "items": [
+            {
+                "name": "Huile de terbantine"
+            },
+            {
+                "name": "Huile de terebanthine"
+            },
+            {
+                "name": "Huile de terebenctine"
+            },
+            {
+                "name": "Huile de t\u00e9r\u00e9benthine"
+            },
+            {
+                "name": "Huile de terebenthine"
+            }
+        ],
+        "nbItems": 29
+    },
+    {
+        "name": "racines d'alizari",
+        "id": "racines_d'alizari~product_orthographic",
+        "items": [
+            {
+                "name": "Racine ; d'alisary"
+            },
+            {
+                "name": "Racine ; d'alizary"
+            },
+            {
+                "name": "Racine ; de lazary"
+            },
+            {
+                "name": "Racine ; de lisaris"
+            },
+            {
+                "name": "Racine de lisary"
+            }
+        ],
+        "nbItems": 29
+    },
+    {
+        "name": "sel d'Epsom",
+        "id": "sel_d'Epsom~product_orthographic",
+        "items": [
+            {
+                "name": "Sel ; de Glauber"
+            },
+            {
+                "name": "Sel d'Epsom"
+            },
+            {
+                "name": "Sel d'epsum"
+            },
+            {
+                "name": "Sel d'hypsum"
+            },
+            {
+                "name": "Sel ; d'Hypsum"
+            }
+        ],
+        "nbItems": 29
+    },
+    {
+        "name": "\u00e9caille de tortue",
+        "id": "\u00e9caille_de_tortue~product_orthographic",
+        "items": [
+            {
+                "name": "...caille de Tortue"
+            },
+            {
+                "name": "Eacaille de tortue"
+            },
+            {
+                "name": "Ecaille de Tortu"
+            },
+            {
+                "name": "\u00c9caille de tortue"
+            },
+            {
+                "name": "\u00e9caille de tortue"
+            }
+        ],
+        "nbItems": 28
+    },
+    {
+        "name": "cuirs de vache corroy\u00e9s",
+        "id": "cuirs_de_vache_corroy\u00e9s~product_orthographic",
+        "items": [
+            {
+                "name": "Cuir de vache corroy\u00e9"
+            },
+            {
+                "name": "Cuir ; de vache ; corroy\u00e9"
+            },
+            {
+                "name": "Cuir de vache corroy\u00e9s"
+            },
+            {
+                "name": "Cuir ; de vache ; corroy\u00e9s"
+            },
+            {
+                "name": "Cuirs ; de Nache coroi\u00e9s"
+            }
+        ],
+        "nbItems": 28
+    },
+    {
+        "name": "\u00e9toffe de soie",
+        "id": "\u00e9toffe_de_soie~product_orthographic",
+        "items": [
+            {
+                "name": "Estoffe de soye"
+            },
+            {
+                "name": "Estoffes de soye"
+            },
+            {
+                "name": "Etofe de soye"
+            },
+            {
+                "name": "Etofes de soye"
+            },
+            {
+                "name": "\u00c9toffe de soie"
+            }
+        ],
+        "nbItems": 28
+    },
+    {
+        "name": "fer en t\u00f4le",
+        "id": "fer_en_t\u00f4le~product_orthographic",
+        "items": [
+            {
+                "name": "Fer en Taule"
+            },
+            {
+                "name": "Fer en taule"
+            },
+            {
+                "name": "Fer ; en Taule"
+            },
+            {
+                "name": "Fer ; en taule"
+            },
+            {
+                "name": "Fer en Taules"
+            }
+        ],
+        "nbItems": 28
+    },
+    {
+        "name": "gomme du S\u00e9n\u00e9gal",
+        "id": "gomme_du_S\u00e9n\u00e9gal~product_orthographic",
+        "items": [
+            {
+                "name": "Gomme ; de f\u00e9n\u00e9gal"
+            },
+            {
+                "name": "Gomme de S\u00e9n\u00e9gal"
+            },
+            {
+                "name": "Gomme de s\u00e9n\u00e9gal"
+            },
+            {
+                "name": "Gomme de Senegal"
+            },
+            {
+                "name": "Gomme de senegal"
+            }
+        ],
+        "nbItems": 28
+    },
+    {
+        "name": "graine de geni\u00e8vre",
+        "id": "graine_de_geni\u00e8vre~product_orthographic",
+        "items": [
+            {
+                "name": "Graine de geneure"
+            },
+            {
+                "name": "Graine de genevie"
+            },
+            {
+                "name": "Graine de genevievre"
+            },
+            {
+                "name": "Graine de Geniaivre"
+            },
+            {
+                "name": "Graine de geniervre"
+            }
+        ],
+        "nbItems": 28
+    },
+    {
+        "name": "pierres \u00e0 fusils",
+        "id": "pierres_\u00e0_fusils~product_orthographic",
+        "items": [
+            {
+                "name": "Pierre \u00e0 fusil"
+            },
+            {
+                "name": "Pierre a Fusil"
+            },
+            {
+                "name": "Pierre a fusil"
+            },
+            {
+                "name": "Pierre ; \u00e0 fusil"
+            },
+            {
+                "name": "Pierre \u00e0 fusils"
+            }
+        ],
+        "nbItems": 28
+    },
+    {
+        "name": "b\u0153uf sal\u00e9",
+        "id": "b\u0153uf_sal\u00e9~product_orthographic",
+        "items": [
+            {
+                "name": "Beuf; sal\u00e9"
+            },
+            {
+                "name": "Beuf Sal\u00e9"
+            },
+            {
+                "name": "Beuf sal\u00e9"
+            },
+            {
+                "name": "Beuf sale"
+            },
+            {
+                "name": "Beuf ; sal\u00e9"
+            }
+        ],
+        "nbItems": 27
+    },
+    {
+        "name": "bois merrains \u00e0 barriques en douelles",
+        "id": "bois_merrains_\u00e0_barriques_en_douelles~product_orthographic",
+        "items": [
+            {
+                "name": "Bois ;;mairin;a barique en douelles"
+            },
+            {
+                "name": "Bois ; mairin a barique en douelles"
+            },
+            {
+                "name": "Bois ;;mairin;\u00e0 bariques en douelles"
+            },
+            {
+                "name": "Bois ;;mairin;a bariques en douelles"
+            },
+            {
+                "name": "Bois ; merain \u00e0 barique en douelles"
+            }
+        ],
+        "nbItems": 27
+    },
+    {
+        "name": "chapeaux demi castor",
+        "id": "chapeaux_demi_castor~product_orthographic",
+        "items": [
+            {
+                "name": "Champeaux ; demi castor"
+            },
+            {
+                "name": "Chaoeaux demy castor"
+            },
+            {
+                "name": "Chapeaux 1/2 castor"
+            },
+            {
+                "name": "Chapeaux ; 1/2castor"
+            },
+            {
+                "name": "Chapeaux ; 1/2 castor"
+            }
+        ],
+        "nbItems": 27
+    },
+    {
+        "name": "cuirs de g\u00e9nisse corroy\u00e9s",
+        "id": "cuirs_de_g\u00e9nisse_corroy\u00e9s~product_orthographic",
+        "items": [
+            {
+                "name": "Cuir ; de genisse corroy\u00e9s"
+            },
+            {
+                "name": "Cuirs ; de genises corroy\u00e9es"
+            },
+            {
+                "name": "Cuirs de genisse coroy\u00e9es"
+            },
+            {
+                "name": "Cuirs de genisse coroy\u00e9s"
+            },
+            {
+                "name": "Cuirs de genisse corroi\u00e9s"
+            }
+        ],
+        "nbItems": 27
+    },
+    {
+        "name": "cuirs tann\u00e9s",
+        "id": "cuirs_tann\u00e9s~product_orthographic",
+        "items": [
+            {
+                "name": "Cuirs tan\u00e9"
+            },
+            {
+                "name": "Cuirs Tan\u00e9s"
+            },
+            {
+                "name": "Cuirs tan\u00e9s"
+            },
+            {
+                "name": "Cuirs ; tan\u00e9s"
+            },
+            {
+                "name": "Cuirs tanez"
+            }
+        ],
+        "nbItems": 27
+    },
+    {
+        "name": "\u00e9tain ouvr\u00e9",
+        "id": "\u00e9tain_ouvr\u00e9~product_orthographic",
+        "items": [
+            {
+                "name": "Eain ouvr\u00e9"
+            },
+            {
+                "name": "Eain ; ouvr\u00e9"
+            },
+            {
+                "name": "Eatain ouvr\u00e9"
+            },
+            {
+                "name": "Estain ouvr\u00e9"
+            },
+            {
+                "name": "Etaim ; oeuvr\u00e9"
+            }
+        ],
+        "nbItems": 27
+    },
+    {
+        "name": "fil de laiton",
+        "id": "fil_de_laiton~product_orthographic",
+        "items": [
+            {
+                "name": "Fil de caton"
+            },
+            {
+                "name": "Fil de Laiton"
+            },
+            {
+                "name": "Fil de laiton"
+            },
+            {
+                "name": "Fil ; de laiton"
+            },
+            {
+                "name": "Fil delaton"
+            }
+        ],
+        "nbItems": 27
+    },
+    {
+        "name": "guingans",
+        "id": "guingans~product_orthographic",
+        "items": [
+            {
+                "name": "Gingamp"
+            },
+            {
+                "name": "Gingamps"
+            },
+            {
+                "name": "Gingan"
+            },
+            {
+                "name": "Gingans"
+            },
+            {
+                "name": "Gingas"
+            }
+        ],
+        "nbItems": 27
+    },
+    {
+        "name": "neganepeau",
+        "id": "neganepeau~product_orthographic",
+        "items": [
+            {
+                "name": "Maganipau"
+            },
+            {
+                "name": "N\u00e9gampeaux"
+            },
+            {
+                "name": "Neganapau"
+            },
+            {
+                "name": "N\u00e9gan\u00e9pau"
+            },
+            {
+                "name": "Neganepau"
+            }
+        ],
+        "nbItems": 27
+    },
+    {
+        "name": "pipes \u00e0 fumer",
+        "id": "pipes_\u00e0_fumer~product_orthographic",
+        "items": [
+            {
+                "name": "Pimes a fumer"
+            },
+            {
+                "name": "Pipe \u00e0 Fum\u00e9"
+            },
+            {
+                "name": "Pipe \u00e0 fum\u00e9"
+            },
+            {
+                "name": "Pipe A Fum\u00e9"
+            },
+            {
+                "name": "Pipe A fume"
+            }
+        ],
+        "nbItems": 27
+    },
+    {
+        "name": "toile serpilli\u00e8re",
+        "id": "toile_serpilli\u00e8re~product_orthographic",
+        "items": [
+            {
+                "name": "Toile sepilli\u00e8re"
+            },
+            {
+                "name": "Toile ; serpil\u00e8re"
+            },
+            {
+                "name": "Toile serpili\u00e8re"
+            },
+            {
+                "name": "Toile serpiliere"
+            },
+            {
+                "name": "Toile ; serpili\u00e8re"
+            }
+        ],
+        "nbItems": 27
+    },
+    {
+        "name": "verres cristallins",
+        "id": "verres_cristallins~product_orthographic",
+        "items": [
+            {
+                "name": "Veres ; cristalins"
+            },
+            {
+                "name": "Veres cristallins"
+            },
+            {
+                "name": "Verre christalin"
+            },
+            {
+                "name": "Verre;Cristalin"
+            },
+            {
+                "name": "Verre;cristalin"
+            }
+        ],
+        "nbItems": 27
+    },
+    {
+        "name": "bois merrains \u00e0 pipes",
+        "id": "bois_merrains_\u00e0_pipes~product_orthographic",
+        "items": [
+            {
+                "name": "Bois ;;mairin;\u00e0 pipes"
+            },
+            {
+                "name": "Bois ;;mairin;a pipes"
+            },
+            {
+                "name": "Bois ; merai \u00e0 pipes"
+            },
+            {
+                "name": "Bois ; Merain a pipe"
+            },
+            {
+                "name": "Bois ; merain ; \u00e0 pipe"
+            }
+        ],
+        "nbItems": 26
+    },
+    {
+        "name": "coton fil\u00e9",
+        "id": "coton_fil\u00e9~product_orthographic",
+        "items": [
+            {
+                "name": "Conton fil\u00e9"
+            },
+            {
+                "name": "Coton fi\u00e9"
+            },
+            {
+                "name": "Coton; Fil\u00e9"
+            },
+            {
+                "name": "Coton fil\u00e9;"
+            },
+            {
+                "name": "Coton Fil\u00e9"
+            }
+        ],
+        "nbItems": 26
+    },
+    {
+        "name": "faux \u00e0 faucher",
+        "id": "faux_\u00e0_faucher~product_orthographic",
+        "items": [
+            {
+                "name": "Faule a faucher"
+            },
+            {
+                "name": "Fauls \u00e0 faucher"
+            },
+            {
+                "name": "Fauls a faucher"
+            },
+            {
+                "name": "Faulsc a faucher"
+            },
+            {
+                "name": "Faulse \u00e0 fauche"
+            }
+        ],
+        "nbItems": 26
+    },
+    {
+        "name": "gomme \u00e9l\u00e9mi",
+        "id": "gomme_\u00e9l\u00e9mi~product_orthographic",
+        "items": [
+            {
+                "name": "Gome Elemi"
+            },
+            {
+                "name": "Gome elemy"
+            },
+            {
+                "name": "Gome ; elemy"
+            },
+            {
+                "name": "Gomme alemy"
+            },
+            {
+                "name": "Gomme ; clemy"
+            }
+        ],
+        "nbItems": 26
+    },
+    {
+        "name": "merrains \u00e0 pipes",
+        "id": "merrains_\u00e0_pipes~product_orthographic",
+        "items": [
+            {
+                "name": "MAirain a pipe"
+            },
+            {
+                "name": "Mairain \u00e0 pipes"
+            },
+            {
+                "name": "Mairin a pipe"
+            },
+            {
+                "name": "Mairin ; a pipes"
+            },
+            {
+                "name": "Mairrain a pipes"
+            }
+        ],
+        "nbItems": 26
+    },
+    {
+        "name": "chapeaux mi castor",
+        "id": "chapeaux_mi_castor~product_orthographic",
+        "items": [
+            {
+                "name": "Chaeaux mi-castor"
+            },
+            {
+                "name": "Chapeau mi castor"
+            },
+            {
+                "name": "Chapeau ; mi castor"
+            },
+            {
+                "name": "Chapeaux mi-castor"
+            },
+            {
+                "name": "Chapeaux mi Castor"
+            }
+        ],
+        "nbItems": 25
+    },
+    {
+        "name": "coque du Levant",
+        "id": "coque_du_Levant~product_orthographic",
+        "items": [
+            {
+                "name": "Coque de Levant"
+            },
+            {
+                "name": "Coque de levant"
+            },
+            {
+                "name": "Coque du Levant"
+            },
+            {
+                "name": "Coque du levant"
+            },
+            {
+                "name": "Coque ; du Levant"
+            }
+        ],
+        "nbItems": 25
+    },
+    {
+        "name": "fromage de Hollande",
+        "id": "fromage_de_Hollande~product_orthographic",
+        "items": [
+            {
+                "name": "Fromae ; d'Hollande"
+            },
+            {
+                "name": "Fromage de Hollande"
+            },
+            {
+                "name": "Fromage de hollande"
+            },
+            {
+                "name": "Fromage ; de Hollande"
+            },
+            {
+                "name": "Fromage ; de hollande"
+            }
+        ],
+        "nbItems": 25
+    },
+    {
+        "name": "Guin\u00e9e bleue",
+        "id": "Guin\u00e9e_bleue~product_orthographic",
+        "items": [
+            {
+                "name": "Guinc\u00e9 bleu"
+            },
+            {
+                "name": "Guin\u00e9 Bleue"
+            },
+            {
+                "name": "Guin\u00e9e bleu"
+            },
+            {
+                "name": "Guin\u00e9e ; bleu"
+            },
+            {
+                "name": "Guin\u00e9e; bleu\u00eb"
+            }
+        ],
+        "nbItems": 25
+    },
+    {
+        "name": "huile de poisson",
+        "id": "huile_de_poisson~product_orthographic",
+        "items": [
+            {
+                "name": "Huie de poisson"
+            },
+            {
+                "name": "Huil de poisson"
+            },
+            {
+                "name": "Huile de poison"
+            },
+            {
+                "name": "Huile; De poisson"
+            },
+            {
+                "name": "Huile de Poisson"
+            }
+        ],
+        "nbItems": 25
+    },
+    {
+        "name": "moulins \u00e0 caf\u00e9",
+        "id": "moulins_\u00e0_caf\u00e9~product_orthographic",
+        "items": [
+            {
+                "name": "Moulains \u00e0 caff\u00e9"
+            },
+            {
+                "name": "Moulin \u00e0 Caf\u00e9"
+            },
+            {
+                "name": "Moulin a caf\u00e9"
+            },
+            {
+                "name": "Moulin ; \u00e0 caf\u00e9"
+            },
+            {
+                "name": "Moulin \u00e0 caff\u00e9"
+            }
+        ],
+        "nbItems": 25
+    },
+    {
+        "name": "nattes de jonc",
+        "id": "nattes_de_jonc~product_orthographic",
+        "items": [
+            {
+                "name": "Nales de jong"
+            },
+            {
+                "name": "Nalle de Jonc"
+            },
+            {
+                "name": "Nates;de Jon"
+            },
+            {
+                "name": "Nates de jonc"
+            },
+            {
+                "name": "Nates de Jong"
+            }
+        ],
+        "nbItems": 25
+    },
+    {
+        "name": "pierres \u00e0 aiguiser",
+        "id": "pierres_\u00e0_aiguiser~product_orthographic",
+        "items": [
+            {
+                "name": "Pieres a eguiser"
+            },
+            {
+                "name": "Pierre \u00e0 aiguiser"
+            },
+            {
+                "name": "Pierre ; \u00e0 aiguiser"
+            },
+            {
+                "name": "Pierre a \u00e9guiser"
+            },
+            {
+                "name": "Pierre a eguiser"
+            }
+        ],
+        "nbItems": 25
+    },
+    {
+        "name": "toile \u00e0 carreaux",
+        "id": "toile_\u00e0_carreaux~product_orthographic",
+        "items": [
+            {
+                "name": "Toiile ; \u00e0 carreau"
+            },
+            {
+                "name": "Toile \u00e0 carreau"
+            },
+            {
+                "name": "Toile ; \u00e0 carreau"
+            },
+            {
+                "name": "Toile; \u00e0 carreaux"
+            },
+            {
+                "name": "Toile \u00e0 carreaux"
+            }
+        ],
+        "nbItems": 25
+    },
+    {
+        "name": "basanes tann\u00e9es",
+        "id": "basanes_tann\u00e9es~product_orthographic",
+        "items": [
+            {
+                "name": "Bajanes tann\u00e9es"
+            },
+            {
+                "name": "Bajannes ; tann\u00e9es"
+            },
+            {
+                "name": "Bajanne tann\u00e9es"
+            },
+            {
+                "name": "Balzannes tann\u00e9es"
+            },
+            {
+                "name": "Basanes tann\u00e9es"
+            }
+        ],
+        "nbItems": 24
+    },
+    {
+        "name": "chaises de commodit\u00e9",
+        "id": "chaises_de_commodit\u00e9~product_orthographic",
+        "items": [
+            {
+                "name": "Chaise a commodit\u00e9"
+            },
+            {
+                "name": "Chaise a comodit\u00e9"
+            },
+            {
+                "name": "Chaise de commadit\u00e9"
+            },
+            {
+                "name": "Chaise de commodit\u00e9"
+            },
+            {
+                "name": "Chaise de commodite"
+            }
+        ],
+        "nbItems": 24
+    },
+    {
+        "name": "chapeaux \u00e0 n\u00e8gre",
+        "id": "chapeaux_\u00e0_n\u00e8gre~product_orthographic",
+        "items": [
+            {
+                "name": "Chapeau ; \u00e0 n\u00e8gres"
+            },
+            {
+                "name": "Chapeaux \u00e0 naigre"
+            },
+            {
+                "name": "Chapeaux \u00e0 n\u00e8gre"
+            },
+            {
+                "name": "Chapeaux \u00e0 negre"
+            },
+            {
+                "name": "Chapeaux a negre"
+            }
+        ],
+        "nbItems": 24
+    },
+    {
+        "name": "stockfish",
+        "id": "stockfish~product_orthographic",
+        "items": [
+            {
+                "name": "Crockvisch"
+            },
+            {
+                "name": "Slocfiche"
+            },
+            {
+                "name": "Socfiche"
+            },
+            {
+                "name": "Stocfich"
+            },
+            {
+                "name": "Stocfiche"
+            }
+        ],
+        "nbItems": 24
+    },
+    {
+        "name": "merrains fon\u00e7aille",
+        "id": "merrains_fon\u00e7aille~product_orthographic",
+        "items": [
+            {
+                "name": "Mairain fon\u00e7ailles"
+            },
+            {
+                "name": "Mairin Foncaille"
+            },
+            {
+                "name": "Merain foncail"
+            },
+            {
+                "name": "M\u00e9rain foncaille"
+            },
+            {
+                "name": "Merain fon\u00e7aille"
+            }
+        ],
+        "nbItems": 24
+    },
+    {
+        "name": "meules \u00e0 taillandier",
+        "id": "meules_\u00e0_taillandier~product_orthographic",
+        "items": [
+            {
+                "name": "Meule a Taillandier"
+            },
+            {
+                "name": "Meules a tailandier"
+            },
+            {
+                "name": "Meules \u00e0 Taillandier"
+            },
+            {
+                "name": "Meules \u00e0 taillandier"
+            },
+            {
+                "name": "Meules a Taillandier"
+            }
+        ],
+        "nbItems": 24
+    },
+    {
+        "name": "morue verte",
+        "id": "morue_verte~product_orthographic",
+        "items": [
+            {
+                "name": "Miorue verte"
+            },
+            {
+                "name": "Mmorue ; verte"
+            },
+            {
+                "name": "Molu\u00eb ; verre"
+            },
+            {
+                "name": "Mor\u00fces vertes"
+            },
+            {
+                "name": "Mor\u00fces ; vertes"
+            }
+        ],
+        "nbItems": 24
+    },
+    {
+        "name": "nicaneas",
+        "id": "nicaneas~product_orthographic",
+        "items": [
+            {
+                "name": "Nacaneas"
+            },
+            {
+                "name": "Neanias"
+            },
+            {
+                "name": "N\u00e9can\u00e9as"
+            },
+            {
+                "name": "N\u00e9caneas"
+            },
+            {
+                "name": "Necaneas"
+            }
+        ],
+        "nbItems": 24
+    },
+    {
+        "name": "toile platille",
+        "note": "x",
+        "id": "toile_platille~product_orthographic",
+        "items": [
+            {
+                "name": "Toile ; platile"
+            },
+            {
+                "name": "Toile Platille"
+            },
+            {
+                "name": "Toile platille"
+            },
+            {
+                "name": "Toile ; Platille"
+            },
+            {
+                "name": "Toile ; platille"
+            }
+        ],
+        "nbItems": 24
+    },
+    {
+        "name": "yeux d'\u00e9crevisses",
+        "id": "yeux_d'\u00e9crevisses~product_orthographic",
+        "items": [
+            {
+                "name": "Yeux d'...crevisses"
+            },
+            {
+                "name": "Yeux de cavisses"
+            },
+            {
+                "name": "Yeux d'ecrevice"
+            },
+            {
+                "name": "Yeux d'\u00e9crevise"
+            },
+            {
+                "name": "Yeux d'ecrevise"
+            }
+        ],
+        "nbItems": 24
+    },
+    {
+        "name": "baleine coup\u00e9e",
+        "id": "baleine_coup\u00e9e~product_orthographic",
+        "items": [
+            {
+                "name": "Balaine Coup\u00e9e"
+            },
+            {
+                "name": "Balaine coup\u00e9e"
+            },
+            {
+                "name": "Balaine coupee"
+            },
+            {
+                "name": "Balaine ; coup\u00e9e"
+            },
+            {
+                "name": "Balainne coup\u00e9e"
+            }
+        ],
+        "nbItems": 23
+    },
+    {
+        "name": "bois de simarouba",
+        "id": "bois_de_simarouba~product_orthographic",
+        "items": [
+            {
+                "name": "Bois ; de diramonbas"
+            },
+            {
+                "name": "Bois de seramonbane"
+            },
+            {
+                "name": "Bois ; de seramonbas"
+            },
+            {
+                "name": "Bois ; de Simaraut"
+            },
+            {
+                "name": "Bois ; de sinaconba"
+            }
+        ],
+        "nbItems": 23
+    },
+    {
+        "name": "merrains \u00e0 pipes en douelles",
+        "id": "merrains_\u00e0_pipes_en_douelles~product_orthographic",
+        "items": [
+            {
+                "name": "Bois ; merrain a pipes en douelles"
+            },
+            {
+                "name": "Bois ; merrain ; a pipes en douelles"
+            },
+            {
+                "name": "MAirain a pipe en douelles"
+            },
+            {
+                "name": "Mairain \u00e0 pipes en douelles"
+            },
+            {
+                "name": "Mairin a pipe en douelles"
+            }
+        ],
+        "nbItems": 23
+    },
+    {
+        "name": "bouchons de li\u00e8ge",
+        "id": "bouchons_de_li\u00e8ge~product_orthographic",
+        "items": [
+            {
+                "name": "Bouche de li\u00e8ge"
+            },
+            {
+                "name": "Bouchon de Li\u00e8ge"
+            },
+            {
+                "name": "Bouchon de li\u00e8ge"
+            },
+            {
+                "name": "Bouchon de Li\u00e9ge"
+            },
+            {
+                "name": "Bouchon de Liege"
+            }
+        ],
+        "nbItems": 23
+    },
+    {
+        "name": "ip\u00e9cacuanha",
+        "note": "x",
+        "id": "ip\u00e9cacuanha~product_orthographic",
+        "items": [
+            {
+                "name": "Epipequaquana"
+            },
+            {
+                "name": "Hipepaquana"
+            },
+            {
+                "name": "Inpecacuahanna"
+            },
+            {
+                "name": "Ipacuana"
+            },
+            {
+                "name": "Ipeacuanana"
+            }
+        ],
+        "nbItems": 23
+    },
+    {
+        "name": "fromage de Gruy\u00e8re",
+        "note": "x",
+        "id": "fromage_de_Gruy\u00e8re~product_orthographic",
+        "items": [
+            {
+                "name": "Fromage ; de Cruyers"
+            },
+            {
+                "name": "Fromage ; de Grayeres"
+            },
+            {
+                "name": "Fromage de Grui\u00e9re"
+            },
+            {
+                "name": "Fromage de Gruiere"
+            },
+            {
+                "name": "Fromage ; de Gru\u00efere"
+            }
+        ],
+        "nbItems": 23
+    },
+    {
+        "name": "meules \u00e0 coutelier",
+        "id": "meules_\u00e0_coutelier~product_orthographic",
+        "items": [
+            {
+                "name": "Meule A Coutelier"
+            },
+            {
+                "name": "Meule a Coutelier"
+            },
+            {
+                "name": "Meule \u00e0 Couteliers"
+            },
+            {
+                "name": "Meules a Cousolier"
+            },
+            {
+                "name": "Meules \u00e0 co\u00fbtelier"
+            }
+        ],
+        "nbItems": 23
+    },
+    {
+        "name": "planches de ch\u00eane",
+        "id": "planches_de_ch\u00eane~product_orthographic",
+        "items": [
+            {
+                "name": "Planche de ch\u00eane"
+            },
+            {
+                "name": "Planche de chesne"
+            },
+            {
+                "name": "Planche ; de chesne"
+            },
+            {
+                "name": "Planches de chaine"
+            },
+            {
+                "name": "Planches ; de chaine"
+            }
+        ],
+        "nbItems": 23
+    },
+    {
+        "name": "vin de X\u00e9r\u00e8s",
+        "id": "vin_de_X\u00e9r\u00e8s~product_orthographic",
+        "items": [
+            {
+                "name": "Vin de C\u00e8res"
+            },
+            {
+                "name": "Vin de ch\u00e8re"
+            },
+            {
+                "name": "Vin de Cher\u00e9s"
+            },
+            {
+                "name": "Vin de cher\u00e9s"
+            },
+            {
+                "name": "Vin de cheres"
+            }
+        ],
+        "nbItems": 23
+    },
+    {
+        "name": "bl\u00e9 froment",
+        "id": "bl\u00e9_froment~product_orthographic",
+        "items": [
+            {
+                "name": "Beld froment"
+            },
+            {
+                "name": "Bled Fromant"
+            },
+            {
+                "name": "Bled fromant"
+            },
+            {
+                "name": "Bled fromen"
+            },
+            {
+                "name": "Bled fromend"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "bo\u00eetes de bergamotes",
+        "id": "bo\u00eetes_de_bergamotes~product_orthographic",
+        "items": [
+            {
+                "name": "Boetes ; de bargamotes"
+            },
+            {
+                "name": "Bo\u00ebtes de bergamote"
+            },
+            {
+                "name": "Boetes de bergamote"
+            },
+            {
+                "name": "Boetes ; de Bergamotes"
+            },
+            {
+                "name": "Boetes ; de bergamotes"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "bois merrains \u00e0 fonds",
+        "id": "bois_merrains_\u00e0_fonds~product_orthographic",
+        "items": [
+            {
+                "name": "Bois merain a fonds"
+            },
+            {
+                "name": "Bois ;;m\u00e9rain;a fonds"
+            },
+            {
+                "name": "Bois merain a foudol"
+            },
+            {
+                "name": "Bois merains \u00e0 fonds"
+            },
+            {
+                "name": "Bois ; merains ; \u00e0 fonds"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "chanvre cru",
+        "id": "chanvre_cru~product_orthographic",
+        "items": [
+            {
+                "name": "Canvre cru"
+            },
+            {
+                "name": "Chabvre cru"
+            },
+            {
+                "name": "Chamure cru"
+            },
+            {
+                "name": "Chanure Cru"
+            },
+            {
+                "name": "Chanure cru"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "dentelle du Puy",
+        "id": "dentelle_du_Puy~product_orthographic",
+        "items": [
+            {
+                "name": "Dantelle du Puy"
+            },
+            {
+                "name": "Dantelle du puy"
+            },
+            {
+                "name": "Dantelle du puys"
+            },
+            {
+                "name": "Dentelle de Dupui"
+            },
+            {
+                "name": "Dentelle de Puy"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "\u00e9toffe au quart de soie",
+        "id": "\u00e9toffe_au_quart_de_soie~product_orthographic",
+        "items": [
+            {
+                "name": "Etoffe au 1/4 de soie"
+            },
+            {
+                "name": "Etoffe au 1/4 de soye"
+            },
+            {
+                "name": "Etoffe ; au 1/4 de soye"
+            },
+            {
+                "name": "Etoffe au 4e de soye"
+            },
+            {
+                "name": "Etoffe au quars de soye"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "fer en barres",
+        "note": "x",
+        "id": "fer_en_barres~product_orthographic",
+        "items": [
+            {
+                "name": "Fen en barres"
+            },
+            {
+                "name": "Fer en bares"
+            },
+            {
+                "name": "Fer ; en bares"
+            },
+            {
+                "name": "Fer en Barre"
+            },
+            {
+                "name": "Fer en barre"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "fruits \u00e0 l'eau-de-vie",
+        "id": "fruits_\u00e0_l'eau-de-vie~product_orthographic",
+        "items": [
+            {
+                "name": "Fruis a l'eau de vie"
+            },
+            {
+                "name": "Fruis ; \u00e0 l'eau de vie"
+            },
+            {
+                "name": "Fruit a eau de vie"
+            },
+            {
+                "name": "Fruit \u00e0 l'Eau de vie"
+            },
+            {
+                "name": "Fruit \u00e0 l'eau de vie"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "graine de tr\u00e8fle",
+        "id": "graine_de_tr\u00e8fle~product_orthographic",
+        "items": [
+            {
+                "name": "Graine ; de treffe"
+            },
+            {
+                "name": "Graine de treffle"
+            },
+            {
+                "name": "Graine ; de treffle"
+            },
+            {
+                "name": "Graine de treffles"
+            },
+            {
+                "name": "Graine ; de treffles"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "mouchoirs de romals",
+        "id": "mouchoirs_de_romals~product_orthographic",
+        "items": [
+            {
+                "name": "Mouchoir ; de Romald"
+            },
+            {
+                "name": "Mouchoir de Romals"
+            },
+            {
+                "name": "Mouchoir ; de Romals"
+            },
+            {
+                "name": "Mouchoirs ; de Ramat"
+            },
+            {
+                "name": "Mouchoirs de Riomats"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "peaux de loup cervier",
+        "id": "peaux_de_loup_cervier~product_orthographic",
+        "items": [
+            {
+                "name": "Peaaux de loup cervier"
+            },
+            {
+                "name": "Peau de Loup Cervier"
+            },
+            {
+                "name": "Peau de loup cervier"
+            },
+            {
+                "name": "Peaus de loup cervier"
+            },
+            {
+                "name": "Peaux;de loup;cervier"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "pierres \u00e0 faux",
+        "id": "pierres_\u00e0_faux~product_orthographic",
+        "items": [
+            {
+                "name": "Pierre \u00e0 faulx"
+            },
+            {
+                "name": "Pierre a faulx"
+            },
+            {
+                "name": "Pierre ; \u00e0 faulx"
+            },
+            {
+                "name": "Pierre \u00e0 faux"
+            },
+            {
+                "name": "Pierre a faux"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "pois verts",
+        "id": "pois_verts~product_orthographic",
+        "items": [
+            {
+                "name": "Poids verds"
+            },
+            {
+                "name": "Poids ; verds"
+            },
+            {
+                "name": "Poids vert"
+            },
+            {
+                "name": "Poids Verte"
+            },
+            {
+                "name": "Poids vertes"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "raisin sec",
+        "id": "raisin_sec~product_orthographic",
+        "items": [
+            {
+                "name": "Raaisin sec"
+            },
+            {
+                "name": "Raisains secs"
+            },
+            {
+                "name": "Raisine secs"
+            },
+            {
+                "name": "Raisin ; fer"
+            },
+            {
+                "name": "Raisin; sec"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "soie appr\u00eat\u00e9e",
+        "id": "soie_appr\u00eat\u00e9e~product_orthographic",
+        "items": [
+            {
+                "name": "Soye appr\u00eat\u00e9e"
+            },
+            {
+                "name": "Soye appr\u00e9t\u00e9e"
+            },
+            {
+                "name": "Soye appret\u00e9e"
+            },
+            {
+                "name": "Soye ; appr\u00eat\u00e9e"
+            },
+            {
+                "name": "Soye ; apress\u00e9e"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "toile de Bretagne",
+        "id": "toile_de_Bretagne~product_orthographic",
+        "items": [
+            {
+                "name": "Toile de Bratagne"
+            },
+            {
+                "name": "Toile de Breatagne"
+            },
+            {
+                "name": "Toile; de Bretagne"
+            },
+            {
+                "name": "Toile de Bretagne"
+            },
+            {
+                "name": "Toile de bretagne"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "toile de Saintonge",
+        "id": "toile_de_Saintonge~product_orthographic",
+        "items": [
+            {
+                "name": "Toile de faimtong"
+            },
+            {
+                "name": "Toile de Saintange"
+            },
+            {
+                "name": "Toile de Saint ange"
+            },
+            {
+                "name": "Toile de Saint anges"
+            },
+            {
+                "name": "Toile de Saintonge"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "verres \u00e0 vitre",
+        "id": "verres_\u00e0_vitre~product_orthographic",
+        "items": [
+            {
+                "name": "Verre \u00e0 vires"
+            },
+            {
+                "name": "Verre\u00e0 Vitre"
+            },
+            {
+                "name": "Verre \u00e0 vitre"
+            },
+            {
+                "name": "Verre a vitre"
+            },
+            {
+                "name": "Verre ; \u00e0 vitre"
+            }
+        ],
+        "nbItems": 22
+    },
+    {
+        "name": "baleine en fanon",
+        "id": "baleine_en_fanon~product_orthographic",
+        "items": [
+            {
+                "name": "BaLaine ; en fanon"
+            },
+            {
+                "name": "Balaine ; en fanon"
+            },
+            {
+                "name": "Balainne en fanon"
+            },
+            {
+                "name": "Baleine ; en canon"
+            },
+            {
+                "name": "Baleine; en fanon"
+            }
+        ],
+        "nbItems": 21
+    },
+    {
+        "name": "bois de Caliatour",
+        "id": "bois_de_Caliatour~product_orthographic",
+        "items": [
+            {
+                "name": "Bois ; de caillatour"
+            },
+            {
+                "name": "Bois de caleateur"
+            },
+            {
+                "name": "Bois de caliandour"
+            },
+            {
+                "name": "Bois de caliator"
+            },
+            {
+                "name": "Bois; de caliatour"
+            }
+        ],
+        "nbItems": 21
+    },
+    {
+        "name": "caf\u00e9 des \u00celes",
+        "id": "caf\u00e9_des_\u00celes~product_orthographic",
+        "items": [
+            {
+                "name": "Caf\u00e9 des Iles"
+            },
+            {
+                "name": "Caf\u00e9 ; des \u00eeles"
+            },
+            {
+                "name": "Caf\u00e9 des Isles"
+            },
+            {
+                "name": "Caf\u00e9 des isles"
+            },
+            {
+                "name": "Caf\u00e9 ; des Isles"
+            }
+        ],
+        "nbItems": 21
+    },
+    {
+        "name": "chair sal\u00e9e",
+        "id": "chair_sal\u00e9e~product_orthographic",
+        "items": [
+            {
+                "name": "Cair ; sal\u00e9e"
+            },
+            {
+                "name": "Chaire sal\u00e9"
+            },
+            {
+                "name": "Chaire sal\u00e9e"
+            },
+            {
+                "name": "Chaire ; sal\u00e9e"
+            },
+            {
+                "name": "Chair sal\u00e9"
+            }
+        ],
+        "nbItems": 21
+    },
+    {
+        "name": "drap de Louviers",
+        "note": "x",
+        "id": "drap_de_Louviers~product_orthographic",
+        "items": [
+            {
+                "name": "Drap ; de loumiere"
+            },
+            {
+                "name": "Drap de Louvier"
+            },
+            {
+                "name": "Drap de louvier"
+            },
+            {
+                "name": "Drap de l'ouvier"
+            },
+            {
+                "name": "Drap ; de Louvier"
+            }
+        ],
+        "nbItems": 21
+    },
+    {
+        "name": "fil \u00e0 voile",
+        "id": "fil_\u00e0_voile~product_orthographic",
+        "items": [
+            {
+                "name": "Fil;a voile"
+            },
+            {
+                "name": "Fil avoile"
+            },
+            {
+                "name": "Fil \u00e0 Voile"
+            },
+            {
+                "name": "Fil \u00e0 voile"
+            },
+            {
+                "name": "Fil A Voile"
+            }
+        ],
+        "nbItems": 21
+    },
+    {
+        "name": "fruits crus",
+        "id": "fruits_crus~product_orthographic",
+        "items": [
+            {
+                "name": "Fruis cr\u00fb"
+            },
+            {
+                "name": "Fruis crud"
+            },
+            {
+                "name": "Fruis frais"
+            },
+            {
+                "name": "Fruit cr\u00fb"
+            },
+            {
+                "name": "Fruit cru"
+            }
+        ],
+        "nbItems": 21
+    },
+    {
+        "name": "peaux de chevreuil",
+        "id": "peaux_de_chevreuil~product_orthographic",
+        "items": [
+            {
+                "name": "Paux ; de chevreuil"
+            },
+            {
+                "name": "Peau de Cheuvreuil"
+            },
+            {
+                "name": "Peau de chevreuil"
+            },
+            {
+                "name": "Peau ; de chevreuil"
+            },
+            {
+                "name": "Peaux de cheurotin"
+            }
+        ],
+        "nbItems": 21
+    },
+    {
+        "name": "peaux de martre",
+        "id": "peaux_de_martre~product_orthographic",
+        "items": [
+            {
+                "name": "Peau de martre"
+            },
+            {
+                "name": "Peau de martres"
+            },
+            {
+                "name": "Peaux de Marbre"
+            },
+            {
+                "name": "Peaux de marbre"
+            },
+            {
+                "name": "Peaux ; de marbre"
+            }
+        ],
+        "nbItems": 21
+    },
+    {
+        "name": "pelleterie commune",
+        "id": "pelleterie_commune~product_orthographic",
+        "items": [
+            {
+                "name": "Peleterie commune"
+            },
+            {
+                "name": "Peleterie comune"
+            },
+            {
+                "name": "Pellesterie commun"
+            },
+            {
+                "name": "Pellesterie commune"
+            },
+            {
+                "name": "Pellestrie commune"
+            }
+        ],
+        "nbItems": 21
+    },
+    {
+        "name": "saumon sal\u00e9",
+        "id": "saumon_sal\u00e9~product_orthographic",
+        "items": [
+            {
+                "name": "Saumon SAL..."
+            },
+            {
+                "name": "Saumon Sal\u00e9"
+            },
+            {
+                "name": "Saumon sal\u00e9"
+            },
+            {
+                "name": "Saumon sale"
+            },
+            {
+                "name": "Saumon ; sal\u00e9"
+            }
+        ],
+        "nbItems": 21
+    },
+    {
+        "name": "toile de Bretagne \u00e9troite",
+        "id": "toile_de_Bretagne_\u00e9troite~product_orthographic",
+        "items": [
+            {
+                "name": "Toile de Bretagne \u00e9troite"
+            },
+            {
+                "name": "Toile de bretagne \u00e9troite"
+            },
+            {
+                "name": "Toile de Bretagne etroite"
+            },
+            {
+                "name": "Toile de Bretagne ; \u00e9troite"
+            },
+            {
+                "name": "Toile de bretagne ; \u00e9troite"
+            }
+        ],
+        "nbItems": 21
+    },
+    {
+        "name": "toile de chanvre",
+        "id": "toile_de_chanvre~product_orthographic",
+        "items": [
+            {
+                "name": "Toile de chanure"
+            },
+            {
+                "name": "Toile; de Chanvre"
+            },
+            {
+                "name": "Toile; de chanvre"
+            },
+            {
+                "name": "Toile de Chanvre"
+            },
+            {
+                "name": "Toile de chanvre"
+            }
+        ],
+        "nbItems": 21
+    },
+    {
+        "name": "toile diverse",
+        "id": "toile_diverse~product_orthographic",
+        "items": [
+            {
+                "name": "Toile divers"
+            },
+            {
+                "name": "Toile ; divers"
+            },
+            {
+                "name": "Toile diverse"
+            },
+            {
+                "name": "Toile ; diverse"
+            },
+            {
+                "name": "Toile; diverses"
+            }
+        ],
+        "nbItems": 21
+    },
+    {
+        "name": "toile peinte",
+        "id": "toile_peinte~product_orthographic",
+        "items": [
+            {
+                "name": "Toile; peinte"
+            },
+            {
+                "name": "Toile Peinte"
+            },
+            {
+                "name": "Toile peinte"
+            },
+            {
+                "name": "Toile ; Peinte"
+            },
+            {
+                "name": "Toile ; peinte"
+            }
+        ],
+        "nbItems": 21
+    },
+    {
+        "name": "verres \u00e0 boire",
+        "id": "verres_\u00e0_boire~product_orthographic",
+        "items": [
+            {
+                "name": "Vere ; \u00e0 boire"
+            },
+            {
+                "name": "Verre \u00e0 boire"
+            },
+            {
+                "name": "Verre A boire"
+            },
+            {
+                "name": "Verre a Boire"
+            },
+            {
+                "name": "Verre a boire"
+            }
+        ],
+        "nbItems": 21
+    },
+    {
+        "name": "bois d'\u00e9b\u00e8ne",
+        "id": "bois_d'\u00e9b\u00e8ne~product_orthographic",
+        "items": [
+            {
+                "name": "Bois d'Ebeine"
+            },
+            {
+                "name": "Bois ; d'Ebeinne"
+            },
+            {
+                "name": "Bois de bene"
+            },
+            {
+                "name": "Bois d'\u00e9b\u00e8ne"
+            },
+            {
+                "name": "Bois d'eb\u00e8ne"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "bois merrains",
+        "id": "bois_merrains~product_orthographic",
+        "items": [
+            {
+                "name": "Bois ;;mairin"
+            },
+            {
+                "name": "Bois ; mairin"
+            },
+            {
+                "name": "Bois mairrain"
+            },
+            {
+                "name": "Bois ; marrain"
+            },
+            {
+                "name": "Bois marrin"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "bordage de ch\u00eane",
+        "id": "bordage_de_ch\u00eane~product_orthographic",
+        "items": [
+            {
+                "name": "Bordage de Ch\u00eane"
+            },
+            {
+                "name": "Bordage de ch\u00eane"
+            },
+            {
+                "name": "Bordage de Chene"
+            },
+            {
+                "name": "Bordage de chene"
+            },
+            {
+                "name": "Bordage; de chesne"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "clous de fer",
+        "id": "clous_de_fer~product_orthographic",
+        "items": [
+            {
+                "name": "Cloud de Fer"
+            },
+            {
+                "name": "Cloud de fer"
+            },
+            {
+                "name": "Clou de Fer"
+            },
+            {
+                "name": "Clou de fer"
+            },
+            {
+                "name": "Clouds de Fer"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "eau de fleurs d'orange",
+        "id": "eau_de_fleurs_d'orange~product_orthographic",
+        "items": [
+            {
+                "name": "Eau ; de fl.d'orange"
+            },
+            {
+                "name": "Eau ; de fl. D'orange"
+            },
+            {
+                "name": "Eau ; de fl d'orange"
+            },
+            {
+                "name": "Eau de Fleur d'horange"
+            },
+            {
+                "name": "Eau; De fleur d'orange"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "espars",
+        "id": "espars~product_orthographic",
+        "items": [
+            {
+                "name": "Epar"
+            },
+            {
+                "name": "Eparde"
+            },
+            {
+                "name": "Epards"
+            },
+            {
+                "name": "Epare"
+            },
+            {
+                "name": "Eparn"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "fil \u00e0 sennes",
+        "id": "fil_\u00e0_sennes~product_orthographic",
+        "items": [
+            {
+                "name": "Fil a fiene"
+            },
+            {
+                "name": "Fil \u00e0 Seine"
+            },
+            {
+                "name": "Fil a seine"
+            },
+            {
+                "name": "Fil ; \u00e0 Seine"
+            },
+            {
+                "name": "Fil ; \u00e0 seme"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "filets \u00e0 p\u00eacher",
+        "id": "filets_\u00e0_p\u00eacher~product_orthographic",
+        "items": [
+            {
+                "name": "Files a pecher"
+            },
+            {
+                "name": "Files \u00e0 pescher"
+            },
+            {
+                "name": "Filet a pecher"
+            },
+            {
+                "name": "Filet ; \u00e0 p\u00eacher"
+            },
+            {
+                "name": "Filet \u00e0 pescher"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "laque plate",
+        "id": "laque_plate~product_orthographic",
+        "items": [
+            {
+                "name": "Lacque plate"
+            },
+            {
+                "name": "Lacque ; plate"
+            },
+            {
+                "name": "Lacque platte"
+            },
+            {
+                "name": "Lacque ; platte"
+            },
+            {
+                "name": "Lacque plattes"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "mouchoirs de Pondich\u00e9ry",
+        "id": "mouchoirs_de_Pondich\u00e9ry~product_orthographic",
+        "items": [
+            {
+                "name": "Mouchoir de Pontichery"
+            },
+            {
+                "name": "Mouchoires de Pondichery"
+            },
+            {
+                "name": "Mouchoires de Pontichery"
+            },
+            {
+                "name": "Mouchoirs de Pondich\u00e9ry"
+            },
+            {
+                "name": "Mouchoirs de Pondichery"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "peignes de buis",
+        "id": "peignes_de_buis~product_orthographic",
+        "items": [
+            {
+                "name": "Paignes de buis"
+            },
+            {
+                "name": "Peigne de buis"
+            },
+            {
+                "name": "Peigne ; de buis"
+            },
+            {
+                "name": "Peigne de Buy"
+            },
+            {
+                "name": "Peigne de buy"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "plomb en saumon",
+        "id": "plomb_en_saumon~product_orthographic",
+        "items": [
+            {
+                "name": "Plomb en samon"
+            },
+            {
+                "name": "Plomben saumon"
+            },
+            {
+                "name": "Plomb; En saumon"
+            },
+            {
+                "name": "Plomb; en saumon"
+            },
+            {
+                "name": "Plomb en Saumon"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "plumes \u00e0 \u00e9crire",
+        "id": "plumes_\u00e0_\u00e9crire~product_orthographic",
+        "items": [
+            {
+                "name": "Plume; A \u00e9crire"
+            },
+            {
+                "name": "Plume \u00e0 \u00e9crire"
+            },
+            {
+                "name": "Plume a Ecrire"
+            },
+            {
+                "name": "Plume a ecrire"
+            },
+            {
+                "name": "Plume ; \u00e0 \u00e9crire"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "plumes d'autruche brutes",
+        "id": "plumes_d'autruche_brutes~product_orthographic",
+        "items": [
+            {
+                "name": "Plume d'autre brute"
+            },
+            {
+                "name": "Plume d'autruche brute"
+            },
+            {
+                "name": "Plume ; d'autruche ; brute"
+            },
+            {
+                "name": "Plumes; d'autruche; brute"
+            },
+            {
+                "name": "Plumes d'autruche brute"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "poivre girofl\u00e9",
+        "note": "x",
+        "id": "poivre_girofl\u00e9~product_orthographic",
+        "items": [
+            {
+                "name": "Poivre; geroffl\u00e9"
+            },
+            {
+                "name": "Poivre g\u00e9roffl\u00e9"
+            },
+            {
+                "name": "Poivre Geroffl\u00e9"
+            },
+            {
+                "name": "Poivre geroffl\u00e9"
+            },
+            {
+                "name": "Poivre geroffle"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "rogues de stockfish",
+        "id": "rogues_de_stockfish~product_orthographic",
+        "items": [
+            {
+                "name": "Rogne de stocfiche"
+            },
+            {
+                "name": "Rognes ; de stocfiche"
+            },
+            {
+                "name": "Rognes ; de stockfish"
+            },
+            {
+                "name": "Rogue de stocfich"
+            },
+            {
+                "name": "Rogue de stocfiche"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "rogues de morue",
+        "note": "x",
+        "id": "rogues_de_morue~product_orthographic",
+        "items": [
+            {
+                "name": "Rognes de Morue;"
+            },
+            {
+                "name": "Rognes de moru\u00eb"
+            },
+            {
+                "name": "Rognes de morue"
+            },
+            {
+                "name": "Rognes ; de morue"
+            },
+            {
+                "name": "Rognes de mor\u00fce"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "toile caissie",
+        "note": "x",
+        "id": "toile_caissie~product_orthographic",
+        "items": [
+            {
+                "name": "Toile ; caisse"
+            },
+            {
+                "name": "Toile caiss\u00e9e"
+            },
+            {
+                "name": "Toile; caissie"
+            },
+            {
+                "name": "Toile caissie"
+            },
+            {
+                "name": "Toile ; caissi\u00e9"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "toile de lin de Saint-Quentin",
+        "id": "toile_de_lin_de_Saint-Quentin~product_orthographic",
+        "items": [
+            {
+                "name": "Toile de lin de Saint Quantin"
+            },
+            {
+                "name": "Toile de lin de Saint Quentin"
+            },
+            {
+                "name": "Toile de lin de saint quentin"
+            },
+            {
+                "name": "Toile de lin ; de Saint Quentin"
+            },
+            {
+                "name": "Toile ; de lin de Saint Quentin"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "toile de lin diverse",
+        "id": "toile_de_lin_diverse~product_orthographic",
+        "items": [
+            {
+                "name": "Toile de lin ; divers"
+            },
+            {
+                "name": "Toile ; de lin ; divers"
+            },
+            {
+                "name": "Toile de lin diverse"
+            },
+            {
+                "name": "Toile ; de lin diverse"
+            },
+            {
+                "name": "Toile ; de lin ; diverse"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "toile d'\u00e9toupes",
+        "id": "toile_d'\u00e9toupes~product_orthographic",
+        "items": [
+            {
+                "name": "Toile des Taupe"
+            },
+            {
+                "name": "Toile de toupe"
+            },
+            {
+                "name": "Toile d'\u00e9toupe"
+            },
+            {
+                "name": "Toile d'etoupe"
+            },
+            {
+                "name": "Toile ; d'\u00e9toupe"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "toile royale",
+        "id": "toile_royale~product_orthographic",
+        "items": [
+            {
+                "name": "Toile ; Royal"
+            },
+            {
+                "name": "Toile Royale"
+            },
+            {
+                "name": "Toile royale"
+            },
+            {
+                "name": "Toile ; Royale"
+            },
+            {
+                "name": "Toile ; royale"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "vieux oint",
+        "note": "x",
+        "id": "vieux_oint~product_orthographic",
+        "items": [
+            {
+                "name": "Veaux-oing"
+            },
+            {
+                "name": "Vieil oing"
+            },
+            {
+                "name": "Vieusoin"
+            },
+            {
+                "name": "Vieus-oin"
+            },
+            {
+                "name": "Vieus oin"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "vin de Chypre",
+        "id": "vin_de_Chypre~product_orthographic",
+        "items": [
+            {
+                "name": "Vin de Chipre"
+            },
+            {
+                "name": "Vin de chipre"
+            },
+            {
+                "name": "Vin ; de Chipre"
+            },
+            {
+                "name": "Vin ; de chipre"
+            },
+            {
+                "name": "Vin; de Chipres"
+            }
+        ],
+        "nbItems": 20
+    },
+    {
+        "name": "bourre de b\u0153uf",
+        "id": "bourre_de_b\u0153uf~product_orthographic",
+        "items": [
+            {
+                "name": "Boure de beuf"
+            },
+            {
+                "name": "Boure ; de beuf"
+            },
+            {
+                "name": "Boure de B\u0153uf"
+            },
+            {
+                "name": "Boure de b\u0153uf"
+            },
+            {
+                "name": "Bourre de be\u00fcf"
+            }
+        ],
+        "nbItems": 19
+    },
+    {
+        "name": "canefice",
+        "id": "canefice~product_orthographic",
+        "items": [
+            {
+                "name": "Caneffice"
+            },
+            {
+                "name": "Can\u00e9fice"
+            },
+            {
+                "name": "Canefice"
+            },
+            {
+                "name": "Canefices"
+            },
+            {
+                "name": "Canefiche"
+            }
+        ],
+        "nbItems": 19
+    },
+    {
+        "name": "cordage d'espars",
+        "id": "cordage_d'espars~product_orthographic",
+        "items": [
+            {
+                "name": "Cordage d'espar"
+            },
+            {
+                "name": "Cordage d'espars"
+            },
+            {
+                "name": "Cordage ; d'Espars"
+            },
+            {
+                "name": "Cordage ; d'espars"
+            },
+            {
+                "name": "Cordage ; d'espart"
+            }
+        ],
+        "nbItems": 19
+    },
+    {
+        "name": "cornes de b\u0153uf",
+        "id": "cornes_de_b\u0153uf~product_orthographic",
+        "items": [
+            {
+                "name": "Corne de beuf"
+            },
+            {
+                "name": "Corne ; de beuf"
+            },
+            {
+                "name": "Corne ; de b\u0153uf"
+            },
+            {
+                "name": "Cornes de Beuf"
+            },
+            {
+                "name": "Cornes de beuf"
+            }
+        ],
+        "nbItems": 19
+    },
+    {
+        "name": "corot",
+        "note": "x",
+        "id": "corot~product_orthographic",
+        "items": [
+            {
+                "name": "Coroos"
+            },
+            {
+                "name": "Coroot"
+            },
+            {
+                "name": "Coroote ?"
+            },
+            {
+                "name": "Coroots"
+            },
+            {
+                "name": "Corops coroot ?"
+            }
+        ],
+        "nbItems": 19
+    },
+    {
+        "name": "cr\u00e8me de tartre",
+        "id": "cr\u00e8me_de_tartre~product_orthographic",
+        "items": [
+            {
+                "name": "Cr\u00e8me ; de lartre"
+            },
+            {
+                "name": "Cr\u00e8me de tarte"
+            },
+            {
+                "name": "Creme de Tarte"
+            },
+            {
+                "name": "Creme de tarte"
+            },
+            {
+                "name": "Creme ; de tarte"
+            }
+        ],
+        "nbItems": 19
+    },
+    {
+        "name": "p\u00e2te d'amandes",
+        "id": "p\u00e2te_d'amandes~product_orthographic",
+        "items": [
+            {
+                "name": "P\u00e4te d'amande"
+            },
+            {
+                "name": "Paste d'amande"
+            },
+            {
+                "name": "Paste ; d'amande"
+            },
+            {
+                "name": "Paste d'amandes"
+            },
+            {
+                "name": "Paste ; d'amandes"
+            }
+        ],
+        "nbItems": 19
+    },
+    {
+        "name": "pain d'\u00e9pice",
+        "id": "pain_d'\u00e9pice~product_orthographic",
+        "items": [
+            {
+                "name": "Pain d'\u00e9pice"
+            },
+            {
+                "name": "Pain d'Epice"
+            },
+            {
+                "name": "Pain d'epice"
+            },
+            {
+                "name": "Pain ; d\u00e9pice"
+            },
+            {
+                "name": "Pain ; D'\u00e9pice"
+            }
+        ],
+        "nbItems": 19
+    },
+    {
+        "name": "planches de Prusse",
+        "id": "planches_de_Prusse~product_orthographic",
+        "items": [
+            {
+                "name": "Palnches ; de Prusse"
+            },
+            {
+                "name": "Placnche de Pruse"
+            },
+            {
+                "name": "Planche de Prusse"
+            },
+            {
+                "name": "Planche de prusse"
+            },
+            {
+                "name": "Planche ; de Prusse"
+            }
+        ],
+        "nbItems": 19
+    },
+    {
+        "name": "planches de sapin",
+        "id": "planches_de_sapin~product_orthographic",
+        "items": [
+            {
+                "name": "Palnches ; de sapin"
+            },
+            {
+                "name": "Pklanches de sapin"
+            },
+            {
+                "name": "Plamches de Sapin"
+            },
+            {
+                "name": "Planche de sapin;"
+            },
+            {
+                "name": "Planche de Sapin"
+            }
+        ],
+        "nbItems": 19
+    },
+    {
+        "name": "pierres d'\u00e9meri",
+        "id": "pierres_d'\u00e9meri~product_orthographic",
+        "items": [
+            {
+                "name": "Pierre ; d'\u00e9mery"
+            },
+            {
+                "name": "Pierre ; d'Emery"
+            },
+            {
+                "name": "Pierre ; d'emery"
+            },
+            {
+                "name": "Pierres d'emeri"
+            },
+            {
+                "name": "Pierres ; d'\u00e9meri"
+            }
+        ],
+        "nbItems": 19
+    },
+    {
+        "name": "poudre \u00e0 poudrer",
+        "id": "poudre_\u00e0_poudrer~product_orthographic",
+        "items": [
+            {
+                "name": "Poucre \u00e0 poudrer"
+            },
+            {
+                "name": "Poude \u00e0 poudrer"
+            },
+            {
+                "name": "Poudre \u00e0 poudre"
+            },
+            {
+                "name": "Poudre a poudre"
+            },
+            {
+                "name": "Poudre ; a poudre"
+            }
+        ],
+        "nbItems": 19
+    },
+    {
+        "name": "toile blanche",
+        "id": "toile_blanche~product_orthographic",
+        "items": [
+            {
+                "name": "Toile ; blanc"
+            },
+            {
+                "name": "Toile Blanche"
+            },
+            {
+                "name": "Toile blanche"
+            },
+            {
+                "name": "Toile ; Blanche"
+            },
+            {
+                "name": "Toile ; blanche"
+            }
+        ],
+        "nbItems": 19
+    },
+    {
+        "name": "toile de Hollande",
+        "id": "toile_de_Hollande~product_orthographic",
+        "items": [
+            {
+                "name": "Toile de Hollande"
+            },
+            {
+                "name": "Toile de hollande"
+            },
+            {
+                "name": "Toile ; de Hollande"
+            },
+            {
+                "name": "Toile dholande"
+            },
+            {
+                "name": "Toile d'Holande"
+            }
+        ],
+        "nbItems": 19
+    },
+    {
+        "name": "bois de Camp\u00eache en b\u00fbches",
+        "id": "bois_de_Camp\u00eache_en_b\u00fbches~product_orthographic",
+        "items": [
+            {
+                "name": "Bois de camp\u00eache en buche"
+            },
+            {
+                "name": "Bois ; de camp\u00eache en buche"
+            },
+            {
+                "name": "Bois de Camp\u00eache en buches"
+            },
+            {
+                "name": "Bois de camp\u00eache en buches"
+            },
+            {
+                "name": "Bois de campeche en buches"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "cendre gravel\u00e9e",
+        "id": "cendre_gravel\u00e9e~product_orthographic",
+        "items": [
+            {
+                "name": "Cendre granele"
+            },
+            {
+                "name": "Cendre Gravel\u00e9"
+            },
+            {
+                "name": "Cendre gravel\u00e9"
+            },
+            {
+                "name": "Cendre;gravel\u00e9e"
+            },
+            {
+                "name": "Cendre Gravel\u00e9e"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "cercles \u00e0 tonneaux",
+        "id": "cercles_\u00e0_tonneaux~product_orthographic",
+        "items": [
+            {
+                "name": "Cercles \u00e0 \u00e0 tonneaux"
+            },
+            {
+                "name": "Cercles ; \u00e0 tanneaux"
+            },
+            {
+                "name": "Cercles \u00e0 thonneau"
+            },
+            {
+                "name": "Cercles \u00e0 thonneaux"
+            },
+            {
+                "name": "Cercles a toneaux"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "cirsaca",
+        "id": "cirsaca~product_orthographic",
+        "items": [
+            {
+                "name": "Ciraka"
+            },
+            {
+                "name": "Circaca"
+            },
+            {
+                "name": "Cir\u00e7acas"
+            },
+            {
+                "name": "Circacas"
+            },
+            {
+                "name": "Circahas"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "cire jaune",
+        "id": "cire_jaune~product_orthographic",
+        "items": [
+            {
+                "name": "Cire; Jaune"
+            },
+            {
+                "name": "Cire jaune;"
+            },
+            {
+                "name": "Cire Jaune"
+            },
+            {
+                "name": "Cire jaune"
+            },
+            {
+                "name": "Cire ; Jaune"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "coton en laine",
+        "id": "coton_en_laine~product_orthographic",
+        "items": [
+            {
+                "name": "Conton ; en laine"
+            },
+            {
+                "name": "Coton; En laine"
+            },
+            {
+                "name": "Coton en Laine"
+            },
+            {
+                "name": "Coton en laine"
+            },
+            {
+                "name": "Coton ; En laine"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "contra yerba",
+        "id": "contra_yerba~product_orthographic",
+        "items": [
+            {
+                "name": "Contra"
+            },
+            {
+                "name": "Contrabierre"
+            },
+            {
+                "name": "Contrabierva"
+            },
+            {
+                "name": "Contracyrna"
+            },
+            {
+                "name": "Contragerna"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "dents de morphil",
+        "id": "dents_de_morphil~product_orthographic",
+        "items": [
+            {
+                "name": "Dens de morphil"
+            },
+            {
+                "name": "Dent de Morphil"
+            },
+            {
+                "name": "Dent de morphil"
+            },
+            {
+                "name": "Dent ; de morphil"
+            },
+            {
+                "name": "Dents de morfil"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "douelles \u00e0 tonneaux",
+        "id": "douelles_\u00e0_tonneaux~product_orthographic",
+        "items": [
+            {
+                "name": "D\u00f6uelles a tonneaux"
+            },
+            {
+                "name": "Do\u00fceles ; \u00e0 tonneaux"
+            },
+            {
+                "name": "Do\u00fcelle a tonneaux"
+            },
+            {
+                "name": "Do\u00fcelles ; \u00e0 toneaux"
+            },
+            {
+                "name": "Do\u00fcelles \u00e0 tonneaux"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "eau-de-vie d'Hendaye",
+        "id": "eau-de-vie_d'Hendaye~product_orthographic",
+        "items": [
+            {
+                "name": "Eau de Vie d'andage"
+            },
+            {
+                "name": "Eau de vie d'Andaie"
+            },
+            {
+                "name": "Eau de vie d'Andaille"
+            },
+            {
+                "name": "Eau-de-vie d'Andaye"
+            },
+            {
+                "name": "Eau de vie d'andaye"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "fleurs de soufre",
+        "id": "fleurs_de_soufre~product_orthographic",
+        "items": [
+            {
+                "name": "Fleur ; de fouffre"
+            },
+            {
+                "name": "Fleur de Souffre"
+            },
+            {
+                "name": "Fleur de souffre"
+            },
+            {
+                "name": "Fleur ; de souffre"
+            },
+            {
+                "name": "Fleur de soufre"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "graine de jardin",
+        "id": "graine_de_jardin~product_orthographic",
+        "items": [
+            {
+                "name": "Grainde de jardin"
+            },
+            {
+                "name": "Graine de jardain"
+            },
+            {
+                "name": "Graine;de Jardin"
+            },
+            {
+                "name": "Graine de Jardin"
+            },
+            {
+                "name": "Graine de jardin"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "haches houes et serpes",
+        "id": "haches_houes_et_serpes~product_orthographic",
+        "items": [
+            {
+                "name": "Haches, ho\u00fces et serpe"
+            },
+            {
+                "name": "Haches, ho\u00fces et serpes"
+            },
+            {
+                "name": "Haches ho\u00fces et serpes"
+            },
+            {
+                "name": "Haches ; ho\u00fces et serpes"
+            },
+            {
+                "name": "Haches , ho\u00fces et serpes"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "inde plate",
+        "id": "inde_plate~product_orthographic",
+        "items": [
+            {
+                "name": "Indeplate"
+            },
+            {
+                "name": "Inde-plate"
+            },
+            {
+                "name": "Inde plate"
+            },
+            {
+                "name": "Inde ; plate"
+            },
+            {
+                "name": "Inde plates"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "li\u00e8ge en planches",
+        "id": "li\u00e8ge_en_planches~product_orthographic",
+        "items": [
+            {
+                "name": "Li\u00e8ge en Planche"
+            },
+            {
+                "name": "Li\u00e8ge en planche"
+            },
+            {
+                "name": "Li\u00e9ge en planche"
+            },
+            {
+                "name": "Li\u00e8ge ; en planche"
+            },
+            {
+                "name": "Liege ; en planche"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "peaux de maroquins",
+        "id": "peaux_de_maroquins~product_orthographic",
+        "items": [
+            {
+                "name": "Peau ; de maroquin"
+            },
+            {
+                "name": "Peaux ; de maraquin"
+            },
+            {
+                "name": "Peaux ; de marequin"
+            },
+            {
+                "name": "Peaux de marocain"
+            },
+            {
+                "name": "Peaux de maroquier"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "pierres ponce",
+        "id": "pierres_ponce~product_orthographic",
+        "items": [
+            {
+                "name": "Piere ponce"
+            },
+            {
+                "name": "Pierre-ponce"
+            },
+            {
+                "name": "Pierre Ponce"
+            },
+            {
+                "name": "Pierre ponce"
+            },
+            {
+                "name": "Pierre ; ponce"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "plumes \u00e0 lit",
+        "id": "plumes_\u00e0_lit~product_orthographic",
+        "items": [
+            {
+                "name": "Plues ; \u00e0 lit"
+            },
+            {
+                "name": "Plum a lit"
+            },
+            {
+                "name": "Plume \u00e0 Lit"
+            },
+            {
+                "name": "Plume \u00e0 lit"
+            },
+            {
+                "name": "Plume a lit"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "poterie de gr\u00e8s barban\u00e7ons",
+        "id": "poterie_de_gr\u00e8s_barban\u00e7ons~product_orthographic",
+        "items": [
+            {
+                "name": "Poterie de gr\u00e8s barban\u00e7ons"
+            },
+            {
+                "name": "Poterie de gr\u00e8s ; barban\u00e7ons"
+            },
+            {
+                "name": "Poterie de gr\u00e8s en barban\u00e7ons"
+            },
+            {
+                "name": "Poterie de grez Barban\u00e7ons"
+            },
+            {
+                "name": "Poterie ; degrez ; barban\u00e7ons"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "quincaille de fer et acier",
+        "id": "quincaille_de_fer_et_acier~product_orthographic",
+        "items": [
+            {
+                "name": "Quicaille de fer et acier"
+            },
+            {
+                "name": "Quicailles de fer et acier"
+            },
+            {
+                "name": "Quincaille de fer & acier"
+            },
+            {
+                "name": "Quincaille de fer \u00a7 acier"
+            },
+            {
+                "name": "Quincaille de fer et acier"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "rave de morue",
+        "note": "x",
+        "id": "rave_de_morue~product_orthographic",
+        "items": [
+            {
+                "name": "Rase de morue"
+            },
+            {
+                "name": "Raux de morue"
+            },
+            {
+                "name": "Rave de moru\u00eb"
+            },
+            {
+                "name": "Rave de Morue"
+            },
+            {
+                "name": "Rave de morue"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "toile killis",
+        "note": "x",
+        "id": "toile_killis~product_orthographic",
+        "items": [
+            {
+                "name": "Toile kilis"
+            },
+            {
+                "name": "Toile ; kilis"
+            },
+            {
+                "name": "Toile killi"
+            },
+            {
+                "name": "Toile killie"
+            },
+            {
+                "name": "Toile ; killie"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "ustensiles de p\u00eache",
+        "id": "ustensiles_de_p\u00eache~product_orthographic",
+        "items": [
+            {
+                "name": "Usentiles de p\u00eache"
+            },
+            {
+                "name": "Ustanciles de p\u00eache"
+            },
+            {
+                "name": "Ustanciles ; de p\u00eache"
+            },
+            {
+                "name": "Ustancilles ; de p\u00eache"
+            },
+            {
+                "name": "Ustancils de p\u00eache"
+            }
+        ],
+        "nbItems": 18
+    },
+    {
+        "name": "aiguilles \u00e0 coudre",
+        "id": "aiguilles_\u00e0_coudre~product_orthographic",
+        "items": [
+            {
+                "name": "Aiguiles a coudre"
+            },
+            {
+                "name": "Aiguille a coude"
+            },
+            {
+                "name": "Aiguille \u00e0 coudre"
+            },
+            {
+                "name": "Aiguille A coudre"
+            },
+            {
+                "name": "Aiguille a coudre"
+            }
+        ],
+        "nbItems": 17
+    },
+    {
+        "name": "amandes cass\u00e9es",
+        "id": "amandes_cass\u00e9es~product_orthographic",
+        "items": [
+            {
+                "name": "Amande cass\u00e9es"
+            },
+            {
+                "name": "Amand\u00e9es cass\u00e9es"
+            },
+            {
+                "name": "Amandes cas\u00e9\u00e9r"
+            },
+            {
+                "name": "Amandes cas\u00e9es"
+            },
+            {
+                "name": "Amandes Cass\u00e9"
+            }
+        ],
+        "nbItems": 17
+    },
+    {
+        "name": "armes \u00e0 feu fusils",
+        "id": "armes_\u00e0_feu_fusils~product_orthographic",
+        "items": [
+            {
+                "name": "Armes ; \u00e0 feu en fusils"
+            },
+            {
+                "name": "Armes ; a feu en fusils"
+            },
+            {
+                "name": "Armes a feu ; fusil"
+            },
+            {
+                "name": "Armes; \u00e0 feu; fusils"
+            },
+            {
+                "name": "Armes \u00e0 feu Fusils"
+            }
+        ],
+        "nbItems": 17
+    },
+    {
+        "name": "asa foetida",
+        "id": "asa_foetida~product_orthographic",
+        "items": [
+            {
+                "name": "Assa fassida"
+            },
+            {
+                "name": "Assafectida"
+            },
+            {
+                "name": "Assafelida"
+            },
+            {
+                "name": "Assaf\u00e9tida"
+            },
+            {
+                "name": "Assafetida"
+            }
+        ],
+        "nbItems": 17
+    },
+    {
+        "name": "balais de palme",
+        "id": "balais_de_palme~product_orthographic",
+        "items": [
+            {
+                "name": "Balai de palme"
+            },
+            {
+                "name": "Balai ; de palmes"
+            },
+            {
+                "name": "Balais; De palme"
+            },
+            {
+                "name": "Balais de Palme"
+            },
+            {
+                "name": "Balais de palme"
+            }
+        ],
+        "nbItems": 17
+    },
+    {
+        "name": "barriques vides",
+        "id": "barriques_vides~product_orthographic",
+        "items": [
+            {
+                "name": "Bariqes vuides"
+            },
+            {
+                "name": "Bariques vides"
+            },
+            {
+                "name": "Bariques v\u00fcides"
+            },
+            {
+                "name": "Bariques vuide"
+            },
+            {
+                "name": "Bariques Vuides"
+            }
+        ],
+        "nbItems": 17
+    },
+    {
+        "name": "bonneterie de laine",
+        "id": "bonneterie_de_laine~product_orthographic",
+        "items": [
+            {
+                "name": "Boneterie de laine"
+            },
+            {
+                "name": "Boneterie ; de laine"
+            },
+            {
+                "name": "Bonetterie de laine"
+            },
+            {
+                "name": "Bonneterie; de laine"
+            },
+            {
+                "name": "Bonneterie de Laine"
+            }
+        ],
+        "nbItems": 17
+    }
+]

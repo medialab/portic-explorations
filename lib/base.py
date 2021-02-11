@@ -9,7 +9,7 @@ class Client():
     def logger (self, *args):
         print(args)
 
-    def api(self, path, method='get', params=None, data=None):
+    def api(self, path, method='get', params=None, data=None, query=None):
         final_url = self.BASE_URL + path
         final_params = {}
         if (params is not None):
@@ -18,8 +18,19 @@ class Client():
                     final_params[key] = ','.join(value)
                 else:
                     final_params[key] = value
+
+        if (query is not None):
+            final_url += '?'
+            for key, value in query.items():
+                # if isinstance(value, list): 
+                    url_add =  '&'+ str(key) + '=' + str(value)
+                    final_url += url_add
+                # else:
+                    # final_params[key] = value
+
         req = requests.Request(method.upper(), final_url, params=final_params)
         prepared = req.prepare()
+
         if debug is True:
             print('{}\n{}\r\n{}\r\n\r\n{}'.format(
                 '-----------FINAL QUERY-----------',

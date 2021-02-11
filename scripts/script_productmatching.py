@@ -9,9 +9,20 @@ from lib.client import Api
 # instantiate the lib client
 client = Api()
 
-#1 extraction produits toflit (pour alignement produits) ---- arguments possibles : "product_orthographic" ; "product_simplification"
+"""
+Test de match des produits navigo / toflit
+en créant des sets de produits de plus en plus proches typographiquement
+1. extraction des produits 
+2. test de la correspondance stricte
+3. test de la correspondance lowercase
+4. test de la correspondance sans "," ou ";"" ou "[" ou "]"
+5. suppression des stop words
+"""
 
-result = client.toflit.get_classification_search("product_orthographic")
+#1 extraction produits toflit (pour alignement produits) 
+
+# result = client.toflit.get_classification_search("product_orthographic") # je ne veux pas tester avec 28000 produits pour l'instant
+result = client.toflit.get_classification_sliced_search("product_orthographic") # je préfère tester avec 200
 names_orthographic = []
 
 for s in result: # s est un dictionnaire python         
@@ -44,6 +55,7 @@ C = set(names_simplification)
 # print(" -------------------- set navigo: \n", A)
 # print(" -------------------- set orthographic: \n", B)
 
+# print("nombre total d'elements :", len(A.union(B)))
 # print("nombre d'elements en commun avec ortho :", len(A.intersection(B)))
 # print("nombre d'elements en commun avec simplification :", len(A.intersection(C)))
 
@@ -64,7 +76,79 @@ for i in C:
     C_low.add(i.lower())
 # print(" -------------------- set simplification lower: \n",C_low)
  
-# print("nombre total d'elements :", len(A.union(B)))
-print("nombre d'elements en commun avec ortho :", len(A_low.intersection(B_low)))
-print("nombre d'elements en commun avec simplification :", len(A_low.intersection(C_low)))
+# print("nombre d'elements en commun avec ortho lower :", len(A_low.intersection(B_low)))
+# print("nombre d'elements en commun avec simplification lower :", len(A_low.intersection(C_low)))
 
+
+#4 test de la correspondance avec débourrage typographique (sans accents, o dans l'e, ...)
+import unidecode
+
+A_decoded = set()
+for i in A_low:
+    A_decoded.add(unidecode.unidecode(i))
+# print(" -------------------- set navigo decoded: \n",A_decoded)
+
+B_decoded = set()
+for i in B_low:
+    B_decoded.add(unidecode.unidecode(i))
+# print(" -------------------- set orthographic decoded: \n",B_decoded)
+
+C_decoded = set()
+for i in C_low:
+    C_decoded.add(unidecode.unidecode(i))
+# print(" -------------------- set simplification decoded: \n",C_decoded)
+
+print("nombre d'elements en commun avec ortho débourré :", len(A_decoded.intersection(B_decoded)))
+print("nombre d'elements en commun avec simplification débourré :", len(A_decoded.intersection(C_decoded)))
+
+
+
+#4 test de la correspondance sans "," ou ";"" ou "[" ou "]"
+# il doit y avoir plus simple
+A_decoded2 = set()
+for i in A_decoded:
+    A_decoded2.add(i.replace(",","").replace(";","").replace("[","").replace("]","")) 
+# print(" -------------------- set navigo cleaned: \n",A_decoded2)
+
+B_decoded2 = set()
+for i in B_decoded:
+    B_decoded2.add(i.replace(",","").replace(";","").replace("[","").replace("]","")) 
+# print(" -------------------- set orthographic cleaned: \n",B_decoded2)
+
+C_decoded2 = set()
+for i in C_decoded:
+    C_decoded2.add(i.replace(",","").replace(";","").replace("[","").replace("]","")) 
+# print(" -------------------- set simplification cleaned: \n",C_decoded2)
+
+# print("nombre d'elements en commun avec ortho cleaned :", len(A_decoded2.intersection(B_decoded2)))
+# print("nombre d'elements en commun avec simplification cleaned :", len(A_decoded2.intersection(C_decoded2)))
+
+
+#5 tokenization (suppression des stop words)
+from fog.key import fingerprint, create_fingerprint
+f = create_fingerprint(stopwords=['de','du','des','d‘','en','à','au','le','la','les','l‘']) # doute au niveau des apostrophes 
+
+A_fingerprinted = set()
+for i in A_decoded2:
+    A_fingerprinted.add(f(fingerprint(i))) 
+# print(" -------------------- set navigo fingerprinted: \n",A_decoded2)
+
+
+
+# test fingerprint bientot obsolète
+""" 
+from fog.key import fingerprint, create_fingerprint
+f = create_fingerprint(stopwords=['de','du','des','d‘','en','à','au','le','la','les','l‘']) # enlève juste l'apostrophes 
+
+# pas de variable en majuscule en python
+# noms de variables plus explicites
+
+A_fingerprinted = set(['blé de Belgique', 'Myrtilles au kir', 'à Les', 'l‘œuf des dans d‘après en ve', 'du pain'])
+abis = set()
+
+for i in A_fingerprinted:
+    i = f(fingerprint(i))
+    abis.add(f(fingerprint(i)))
+print(" -------------------- A fingerprinted : \n", A_fingerprinted)
+print(" -------------------- Abis : \n", abis)
+"""
