@@ -13,7 +13,8 @@ client = Api()
 
 
 result = client.toflit.get_classification_sliced_search("product_orthographic")
-    
+# print (result[0:10])
+
 with open("dumps/classifications.json", "w") as reader:
     reader.write(json.dumps(result, indent=4))
 
@@ -22,10 +23,9 @@ with open('dumps/classifications.csv', 'w', newline='') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
     writer.writeheader()
-    for i in result:
-        for key in results[i]
-            if (key=='item'):
-                writer.writerow({i['name'], """to be continued : je veux itérer sur items pour écrire chaque nom source"""})
+    for i in result: # i est un dictionnaire python, i['items'] une liste
+        for j in i["items"]: # j est un dico python
+                writer.writerow({'name': i["name"], 'source_name' : j["name"]})
 
 names_orthographic = []
 

@@ -42,6 +42,7 @@ class Toflit(Client):
         response = self.api('/classification', params=params)
         response = self._format_response(response)
         return response['product']
+
     def get_partner_classifications(self, params=None):
         """
         Synopsis : récupère les classifications de partenaires
@@ -75,10 +76,12 @@ class Toflit(Client):
         print ("Nombre de classifications trouvées dans cette tranche : ", len(response))
         return response
 
-    def get_classification_search(self, classification, params=None, query=None):
+    # but à terme : avoir 1 seule fonction (nécessite de gérer correctement l’argument query par défaut)
+    def get_classification_search(self, classification, params=None, query={"limit":"5000"}): 
         """
         Synopsis : récupère le détail des groupements associés à une classification en particulier.
         Paramètre classification : le nom de la classification préfixé par son type (ex. "product_simplification", ou "partner_source")
+        Paramètre query modifiable, par défaut on récupère les résultats par tranche de 5000 classifications   
         ---
         Paramètres : aucun ?
         """
