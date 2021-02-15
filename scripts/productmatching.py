@@ -11,18 +11,19 @@ client = Api()
 
 """
 Test de match des produits navigo / toflit
-en créant des sets de produits de plus en plus proches typographiquement
+en créant des SETS de produits de plus en plus proches typographiquement
 1. extraction des produits 
 2. test de la correspondance stricte
 3. test de la correspondance lowercase
-4. test de la correspondance sans "," ou ";"" ou "[" ou "]" ou "-"
-5. suppression des stop words
+4. test de la correspondance nettoyée typographiquement
+5. test de la correspondance sans "," ou ";"" ou "[" ou "]" ou "-"
+6. suppression des stop words
+7. tests fonctions de similarité
 """
 
 #1 extraction produits toflit (pour alignement produits) 
 
-# result = client.toflit.get_classification_search("product_orthographic") # je ne veux pas tester avec 28000 produits pour l'instant
-# result = client.toflit.get_classification_sliced_search("product_orthographic") # je préfère tester avec 200
+# result = client.toflit.get_classification_sliced_search("product_orthographic") # tester avec seulement 200 produits
 result1 = client.toflit.get_classification_search("product_orthographic")
 result2 = client.toflit.get_classification_search("product_simplification")
 
@@ -103,7 +104,7 @@ print("elements communs navigo / toflit simplification :", len(A_decoded.interse
 
 
 
-#4 test de la correspondance sans "," ou ";"" ou "[" ou "]"
+#5 test de la correspondance sans "," ou ";"" ou "[" ou "]"
 # j'ai ajouté suppression des "-" et des apostrophes que je n'arrivais pas à gerer correctement avec fingerprinting
 # il doit y avoir plus simple
 A_decoded2 = set()
@@ -126,7 +127,7 @@ print("elements communs navigo / toflit orthographic :", len(A_decoded2.intersec
 print("elements communs navigo / toflit simplification :", len(A_decoded2.intersection(C_decoded2)))
 
 
-#5 tokenization (suppression des stop words)
+#6 tokenization (suppression des stop words)
 from fog.key import fingerprint, create_fingerprint
 f = create_fingerprint(stopwords=['de','du','des','d\'', 'd','en','à', 'a', 'au','le','la','les','l\'', 'l', 'et', 'pour', 'un', 'une']) # au niveau des apostrophes : l' et d' ne fonctionnent pas
 # à gerer 
@@ -148,10 +149,34 @@ for i in C_decoded2:
     C_fingerprinted.add(f(fingerprint(i))) 
 # print(" -------------------- set toflit orthographic fingerprinted: \n",A_fingerprinted)
 
+common_ortho = A_fingerprinted.intersection(B_fingerprinted)
+common_simplification = A_fingerprinted.intersection(C_fingerprinted)
+a_aligner = A_fingerprinted - common_ortho
+
 print("\n ********************** 5. Transfo fingerpinting (cleaning des stopwords) **********************") 
-print("elements communs navigo / toflit orthographic :", len(A_fingerprinted.intersection(B_fingerprinted)))
-print("elements communs navigo / toflit simplification :", len(A_fingerprinted.intersection(C_fingerprinted)))
+print("elements communs navigo / toflit orthographic :", len(common_ortho))
+print("elements communs navigo / toflit simplification :", len(common_simplification))
+print("reste à aligner à la main ", len(a_aligner), " produits : ", a_aligner)
+# on voit que pluriel pas encore géré --> bois merrains ≠ bois merrain, verges à moulins ≠ verge de moulin, poudre à canons ≠ poudre à canon ...
+# ce qui pourrait demander fonctions de similarité : tablettes d'ardoises ≠ ardoises (pluriel aussi peut le demander)
 
+#7 fonctions de similarité
+from fog.metrics import dice_coefficient, jaccard_similarity, overlap_coefficient
 
+result_dice1 = dice_coefficient(B_fingerprinted, A_fingerprinted)
+result_dice2 = dice_coefficient(C_fingerprinted, A_fingerprinted)
 
+result_jaccard1 = jaccard_similarity(B_fingerprinted, A_fingerprinted)
+result_jaccard2 = jaccard_similarity(C_fingerprinted, A_fingerprinted)
 
+# résultats interessants et cohérents avec étape 5
+result_overlap1 = overlap_coefficient(B_fingerprinted, A_fingerprinted)
+result_overlap2 = overlap_coefficient(C_fingerprinted, A_fingerprinted)
+
+print("\n ********************** 6. Fonctions de similarité **********************") 
+print("dice coeff navigo / toflit orthographic :", result_dice1)
+print("dice coeff navigo / toflit simplification :", result_dice2)
+print("jaccard similarity navigo / toflit orthographic :", result_jaccard1)
+print("jaccard similarity  navigo / toflit simplification :", result_jaccard2)
+print("overlap coeff navigo / toflit orthographic :", result_overlap1)
+print("overlap coeff navigo / toflit simplification :", result_overlap2)
