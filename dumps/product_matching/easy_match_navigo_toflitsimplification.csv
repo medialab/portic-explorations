@@ -1,0 +1,127 @@
+matching_stop_words_cleaned_name,navigo_product_id,name_navigo,product_toflitsimplification
+passagers,00000002,Passagers,passagers
+ble,00000027,Blé,blé
+pommes,00000038,Pommes,pommes
+marchandises,00000040,Marchandises,marchandises
+vin,00000043,Vin,vin
+vin,00000043,Vin,vin de ???
+bois,00000051,Bois,bois
+bois,00000051,Bois,bois de ???
+lard sale,00000053,Lard salé,lard salé
+laine,00000055,Laine,laine
+laine,00000055,Laine,laine de ???
+laine,00000055,Laine,laine en ???
+planches,00000068,Planches,planches
+charbon,00000070,Charbon,charbon
+bois charbon,00000071,Charbon de bois,charbon de bois
+huile,00000074,Huile,huile
+huile,00000074,Huile,huile à ???
+poisson,00000075,Poisson,poisson
+poisson,00000075,Poisson,poisson ???
+lin,00000078,Lin,lin
+lin,00000078,Lin,lin ???
+vinaigre,00000090,Vinaigre,vinaigre
+vinaigre,00000090,Vinaigre,vinaigre ???
+orge,00000093,Orge,orge de ???
+lest,00000094,Lest,lest
+avoine,00000095,Avoine,avoine
+fruits,00000097,Fruits,fruits
+fruits,00000097,Fruits,fruits ?
+chanvre,00000098,Chanvre,chanvre
+coton,00000101,Coton,coton
+coton,00000101,Coton,coton ???
+moutarde,00000106,Moutarde,moutarde
+fromage,00000110,Fromage,fromage
+seigle,00000122,Seigle,seigle
+farine,00000124,Farine,farine
+blancs haricots,00000125,Haricots blancs,haricots blancs
+morue,00000126,Morue,morue
+morue,00000126,Morue,??? de morue
+morue,00000126,Morue,morue ???
+sel,00000129,Sel,sel
+sel,00000129,Sel,sel de
+vivres,00000130,Vivres,vivres
+savon,00000135,Savon,savon
+cafe,00000138,Café,café
+suif,00000145,Suif,suif
+sucre,00000147,Sucre,sucre
+meubles,00000151,Meubles,meubles ???
+meubles,00000151,Meubles,meubles
+huitres,00000167,Huitres,huîtres
+huitres,00000167,Huitres,huitres
+cuivre,00000171,Cuivre,cuivre
+cuivre,00000171,Cuivre,dés de cuivre
+pois,00000183,Pois,pois
+vaches,00000186,Vaches,vaches
+eau vie,00000201,Eau-de-vie,eau-de-vie
+bois bruler,00000203,Bois à brûler,bois pour brûler
+bois bruler,00000203,Bois à brûler,bois pour brûler en ???
+ail,00000205,Ail,ail
+bois construction,00000234,Bois de construction,bois pour construction
+charbon terre,00000235,Charbon de terre,charbon de terre
+morue peche,00000240,Pêche à la morue,pêche à la morue
+morue peche,00000240,Pêche à la morue,pour la pêche à la morue
+terre,00000241,Terre,terre
+terre,00000241,Terre,terre ?
+futailles vides,00000242,Futailles vides,futailles vides
+sardines,00000254,Sardines,sardines
+huile poisson,00000258,Huile de poisson,huile de poisson
+frais peche poisson,00000259,Pêche au poisson frais,pêche au poisson frais
+peche sardine,00000280,Pêche à la sardine,pêche à la sardine
+peche ustensiles,00000281,Ustensiles de pêche,ustensiles de pêche
+fer,00000295,Fer,fer
+fer,00000295,Fer,dés de fer
+fer,00000295,Fer,fer en ?
+fer,00000295,Fer,??? de fer
+fer,00000295,Fer,??? fer
+feves,00000298,Fèves,fèves
+brai,00000303,Brai,brai ???
+brai,00000303,Brai,brai
+brai,00000303,Brai,brai ??? brai
+goudron,00000305,Goudron,goudron
+moules,00000327,Moules ,moules
+biere,00000354,Bière,bière
+marchandises permises,00000356,Marchandises permises,marchandises permises
+morue verte,00000361,Morue verte,morue verte
+salees sardines,00000362,Sardines salées,sardines salées
+beurre,00000379,Beurre,beurre
+fagots,00000414,Fagots,fagots
+cercles,00000419,Cercles,cercles
+oignons,00000420,Oignons,oignons
+oignons,00000420,Oignons,oignons de ???
+morue seche,00000431,Morue sèche,morue sèche
+vide,00000469,Vide,à vide
+vide,00000469,Vide,vide
+aventure,00000470,à l'aventure,à l'aventure
+son,00000491,Son,son
+cendre,00000524,Cendre,cendre
+cendre,00000524,Cendre,cendre ???
+chaux,00000542,Chaux,chaux
+briques,00000546,Briques,briques
+fer vieux,00000566,Vieux Fer,fer vieux
+bouteilles,00000589,Bouteilles ,bouteilles
+canons,00000590,Canons,canons
+cendre varech,00000606,Cendre de varech,cendre de varech
+feuillard,00000616,Feuillard,feuillard
+platre,00000617,Plâtre,plâtre
+carreaux,00000621,Carreaux,carreaux ???
+carreaux,00000621,Carreaux,carreaux
+pierres,00000630,Pierres,pierres
+pierres,00000630,Pierres,pierres ???
+pierres,00000630,Pierres,pierres à
+pierres,00000630,Pierres,pierres en ???
+poterie,00000634,Poterie,poterie
+faience,00001275,Faïence,faïence
+faience,00001275,Faïence,faïence en ???
+noix,00001277,Noix,noix
+lentilles,00001278,Lentilles,lentilles
+boeuf peaux,00001279,Peaux de bœuf,peaux de bœuf
+vinaterie,00001280,Vinatérie,vinaterie
+poisson sec,00001281,Poisson sec,poisson sec
+ardoises,00001283,Ardoises,ardoises
+salaisons,00001284,Salaisons,salaisons
+vesces,00001291,Vesces,vesces
+fumier,00001292,Fumier,fumier
+hardes,00001294,Hardes,hardes
+bordage,00001300,Bordage,bordage
+cerises,00001301,Cérises,cerises
