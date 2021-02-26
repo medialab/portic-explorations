@@ -22,3 +22,5 @@ with open('csv_dumps/navigo_all_pointcalls_1789_admiralities_datasprint_1.csv', 
     writer.writerow(keys)
     for pointcall in filtered_pointcalls:
       writer.writerow(list(map(lambda key : pointcall[key], keys)))
+
+
