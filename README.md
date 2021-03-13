@@ -21,4 +21,7 @@ pip install --upgrade notebook  # need jupyter_client >= 4.2 for sys-prefix belo
 jupyter nbextension install --sys-prefix --py vega  # not needed in notebook >= 5.3
 jupyter nbextension enable --py --sys-prefix ipyleaflet  # can be skipped for notebook 5.3 and above
 jupyter nbextension enable --py --sys-prefix ipysigma
+
+jupyter nbextension install --py --sys-prefix keplergl # can be skipped for notebook 5.3 and above
+jupyter nbextension enable --py --sys-prefix keplergl # can be skipped for notebook 5.3 and above
 ```

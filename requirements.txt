@@ -4,3 +4,4 @@ fog
 ipyleaflet
 ipysigma
 networkx
+keplergl
