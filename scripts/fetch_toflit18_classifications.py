@@ -39,15 +39,15 @@ result2 = client.toflit.get_classification_search("product_simplification")
 """
 
 with open('dumps/products_toflit.csv', 'w', newline='') as csvfile:
-        fieldnames = [ 'id', 'name', 'nbItems']
+        fieldnames = [ 'id', 'name', 'nbItems', 'classification']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         
         for item in result2:
           # écrire une première fois l'élément simplification
-          writer.writerow({"name": item["name"], "id": item["id"]})
+          writer.writerow({"name": item["name"], "id": item["id"], "classification": "simplification"})
           for child in item["items"]:
-              writer.writerow({"name": child["name"], "id": item["id"]})
+              writer.writerow({"name": child["name"], "id": item["id"], "classification": "orthographic"})
           # écrire chaque item en substituant à son id l'id de son élément parent
         
 

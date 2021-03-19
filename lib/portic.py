@@ -57,7 +57,29 @@ Paramètres de requête spécifiques :
 
 * API = pointcalls | travels | any # réduire à une API particulière
         """
-        response = self.api('/pointcalls', params=params)
+
+        # distingue les params qui peuvent être donnés directement à l'api et ceux qui doivent être filtrés après la requête
+        API_PARAMS = ['params', 'format', 'shortenfields', 'both_to', 'date', 'zipped']
+        consumable_params = {}
+        filter_params = {}
+
+        if params is not None:
+            for key, value in params.items():
+                if key in API_PARAMS:
+                    consumable_params[key] = value
+                else:
+                    filter_params[key] =  value
+
+
+
+        response = self.api('/pointcalls', params=consumable_params)
+
+        # on filtre si nécessaire les résultats en fonction des paramètres résiduels qui n'ont pas pu être "consommés" par l'API
+        # https://python.doctor/page-comprehension-list-listes-python-cours-debutants
+        for key, value in filter_params.items():
+            # response = list(filter(lambda item : item[key] is value, response))
+            response = [item for item in response if item[key] == value]
+        
         return response
     
     def get_travels(self, params=None):
@@ -76,8 +98,28 @@ Paramètres de requête généraux (la valeur entre *étoiles* est la valeur par
 
 Paramètres de requête spécifiques : /
         """
-        response = self.api('/travels', params=params)
+        # distingue les params qui peuvent être donnés directement à l'api et ceux qui doivent être filtrés après la requête
+        API_PARAMS = ['params', 'format', 'shortenfields', 'both_to', 'date', 'zipped']
+        consumable_params = {}
+        filter_params = {}
+
+        if params is not None:
+            for key, value in params.items():
+                if key in API_PARAMS:
+                    consumable_params[key] = value
+                else:
+                    filter_params[key] =  value
+
+        response = self.api('/travels', params=consumable_params)
+
+         # on filtre si nécessaire les résultats en fonction des paramètres résiduels qui n'ont pas pu être "consommés" par l'API
+        # https://python.doctor/page-comprehension-list-listes-python-cours-debutants
+        for key, value in filter_params.items():
+            # response = list(filter(lambda item : item[key] is value, response))
+            response = [item for item in response if item[key] == value]
+        
         return response
+
     
     def get_departures_details(self, params=None):
         """
@@ -189,8 +231,32 @@ Paramètres de requête spécifiques :
 
 * ports: [int] (UHGS_id) # liste des ids de ports à filtrer (séparés par des virgules)
         """
-        response = self.api('/flows', params=params)
+
+        # distingue les params qui peuvent être donnés directement à l'api et ceux qui doivent être filtrés après la requête
+        API_PARAMS = ['params', 'format', 'shortenfields', 'both_to', 'date', 'zipped', 'ports']
+        consumable_params = {}
+        filter_params = {}
+
+        if params is not None:
+            for key, value in params.items():
+                if key in API_PARAMS:
+                    consumable_params[key] = value
+                else:
+                    filter_params[key] =  value
+
+        response = self.api('/flows', params=consumable_params)
+
+         # on filtre si nécessaire les résultats en fonction des paramètres résiduels qui n'ont pas pu être "consommés" par l'API
+        # https://python.doctor/page-comprehension-list-listes-python-cours-debutants
+        for key, value in filter_params.items():
+            # response = list(filter(lambda item : item[key] is value, response))
+            response = [item for item in response if item[key] == value] # or key not in item
+        
         return response
+
+
+        """response = self.api('/flows', params=params)
+        return response"""
         
     def get_ports(self, params=None):
         """

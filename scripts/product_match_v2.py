@@ -106,42 +106,39 @@ with open('dumps/products_toflit_datasprint1_actionnable.csv', newline='') as cs
     for row in csv_file:
         products_toflit_simplification_datasprint1.add(
             row['product_toflit_datasprint1'].lower())
-# print ("Produits (toflit simplification) pour datasprint 1 :", products_toflit_simplification_datasprint1)
-
+print ("nb produits (toflit simplification) pour datasprint 1 :", len(products_toflit_simplification_datasprint1))
+ciaoooooooo
 
 # 3 je vais chercher les noms de produits toflit (orthographic et simplification) et leurs id dans un fichier csv ; construction des matchs avec navigo à la volée
-products_toflit = {}
 
 fuzzy_matchers = { 
-    "jaccard": {
-        "threshold": 0.55,
-        "fn": jaccard_similarity
-    }
-}
-
-"""
-fuzzy_matchers = { 
-    "jaccard": {
-        "threshold": 0.55,
-        "fn": jaccard_similarity
-    }, 
-    dice": {
-        "threshold": 0.93,
-        "fn": dice_coefficient
-    },
     "overlap": {
-        "threshold": 0.93,
+        "threshold": 0.9999,
         "fn": overlap_coefficient
     } 
 }
-"""
+"""fuzzy_matchers = { 
+    "jaccard": {
+        "threshold": 0.6,
+        "fn": jaccard_similarity
+    }, 
+    "dice": {
+        "threshold": 0.6,
+        "fn": dice_coefficient
+    },
+    "overlap": {
+        "threshold": 1,
+        "fn": overlap_coefficient
+    } 
+}"""
 
+products_toflit = {}
 with open('dumps/products_toflit.csv', newline='') as csvfile:
     csv_file = csv.DictReader(csvfile, quotechar='|')
     for row in csv_file:
         # stocker les valeurs dans un dict
         if row['id'] not in products_toflit:
-            # {'id_toflit' : '{'id': ..., 'name'.., 'nbItems':..}'}
+            # {'id_toflit' : '{'id': ..., 'name'..., 'nbItems':..., 'classification':...}'}
             products_toflit[row['id']] = row
         # fingerprinter la valeur
         clean_toflit = stem_name(clean_name(row['name']))
@@ -153,23 +150,34 @@ with open('dumps/products_toflit.csv', newline='') as csvfile:
                 for name_algo, matcher in fuzzy_matchers.items():
                     threshold = matcher["threshold"]
                     fn = matcher["fn"]
-                    # for threshold, 
-                    if fn(clean_navigo, clean_toflit) >= threshold:
-                        products_navigo[clean_navigo]['fuzzy_matches'][name_algo]['chars'].add(row['id'])
-                    if fn(set(clean_navigo.split(' ')), set(clean_toflit.split(' '))) >= threshold:
-                        products_navigo[clean_navigo]['fuzzy_matches'][name_algo]['words'].add(row['id'])
+                     
+                    # avec overlap on ne veut tenter le matching qu'avec les produits venant de simplification
+                    if fn == overlap_coefficient:
+                        if row['classification']=='simplification' and fn(clean_navigo, clean_toflit) >= threshold :
+                            products_navigo[clean_navigo]['fuzzy_matches'][name_algo]['chars'].add(row['id'])
+                        if row['classification']=='simplification' and fn(set(clean_navigo.split(' ')), set(clean_toflit.split(' '))) >= threshold:
+                            products_navigo[clean_navigo]['fuzzy_matches'][name_algo]['words'].add(row['id'])
+                    
+                    else:
+                        if fn(clean_navigo, clean_toflit) >= threshold:
+                            products_navigo[clean_navigo]['fuzzy_matches'][name_algo]['chars'].add(row['id'])
+                        if fn(set(clean_navigo.split(' ')), set(clean_toflit.split(' '))) >= threshold:
+                            products_navigo[clean_navigo]['fuzzy_matches'][name_algo]['words'].add(row['id'])
                 # products_navigo[clean_navigo]['matches'].add(row['id'])
 
+print(products_navigo)
+
+
 for name_algo, matcher in fuzzy_matchers.items():
-    # fieldnames = ['key_id', 'en', 'fr', 'name_toflit_simplification', 'id_toflit' """, 'datasprint1'"""]
-    fieldnames = ['key_id', 'en', 'fr', 'name_toflit_simplification', 'id_toflit', 'datasprint1']
+    # fieldnames = ['key_id', 'en', 'fr', 'name_toflit_simplification', 'id_toflit' """, 'produit_dans_flux_du_datasprint'"""]
+    fieldnames = ['key_id', 'en', 'fr', 'name_toflit_simplification', 'id_toflit', 'produit_dans_flux_du_datasprint']
     matching_levels = ['words'] # matching_levels = ['words', 'chars']
     for matching_level in matching_levels:
         filename = 'dumps/product_matching_fuzzy_testings/product_matching_proposals-' + name_algo + '-threshold=' + str(matcher["threshold"]) + '-matching_level=' + matching_level + '.csv'
         # print('build test file', filename)
 
         # céation de variables statistiques
-        min_match = 10 
+        min_match = 100 # à voir, peut être qu'il y a des algos dont le min match est supérieur à 100 
         max_match = 0
         moy_match = 0
 
@@ -205,7 +213,7 @@ for name_algo, matcher in fuzzy_matchers.items():
                         'fr': "",
                         'id_toflit': match,
                         'name_toflit_simplification': toflit_item['name'],
-                        'datasprint1': datasprint1})
+                        'produit_dans_flux_du_datasprint': datasprint1})
                     else:
                         writer.writerow({
                             'key_id': navigo_item['key_id'],
@@ -213,10 +221,10 @@ for name_algo, matcher in fuzzy_matchers.items():
                             'fr': navigo_item['fr'],
                             'id_toflit': match,
                             'name_toflit_simplification': toflit_item['name'],
-                            'datasprint1': datasprint1})
+                            'produit_dans_flux_du_datasprint': datasprint1})
                     last_item = navigo_item
 
-            moy_match /= len(products_navigo) # normalement c'est 124 et ça ne devrait pas changer ... vérifier que ça fonctionne bien
+            moy_match /= len(products_navigo) # c'est 124 et ça ne devrait pas changer 
             # similarity_function, threshold, matching_level, min_match, max_match, moy_match
             ajouter_stats([name_algo, threshold, matching_level, min_match, max_match, moy_match])
 
